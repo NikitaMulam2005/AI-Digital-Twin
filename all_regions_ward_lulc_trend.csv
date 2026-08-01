@@ -1,0 +1,299 @@
+region,ward_uid,ward,earliest_year,latest_year,pct_impervious_earliest,pct_impervious_latest,pct_impervious_change,avg_annual_pct_impervious_change,pct_vegetated_earliest,pct_vegetated_latest,pct_vegetated_change
+BMC,BMC_A,A,2001,2024,64.81,64.81,0.0,0.0,9.26,9.26,0.0
+BMC,BMC_B,B,2001,2024,80.0,80.0,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_C,C,2001,2024,90.91,90.91,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_D,D,2001,2024,78.57,78.57,0.0,0.0,2.38,2.38,0.0
+BMC,BMC_E,E,2001,2024,94.44,94.44,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_F/N,F/N,2001,2024,88.71,88.71,0.0,0.0,8.07,8.06,-0.01
+BMC,BMC_F/S,F/S,2001,2024,91.67,91.67,0.0,0.0,4.16,4.16,0.0
+BMC,BMC_G/N,G/N,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_G/S,G/S,2001,2024,83.33,87.5,4.17,0.1813,4.17,0.0,-4.17
+BMC,BMC_H/E,H/E,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_H/W,H/W,2001,2024,97.67,97.67,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_K/E,K/E,2001,2024,94.07,95.76,1.69,0.0735,5.93,4.23,-1.7
+BMC,BMC_K/W,K/W,2001,2024,90.32,90.32,0.0,0.0,4.84,5.64,0.8
+BMC,BMC_L,L,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+BMC,BMC_M/E,M/E,2001,2024,62.96,62.96,0.0,0.0,35.98,35.98,0.0
+BMC,BMC_M/W,M/W,2001,2024,93.18,93.18,0.0,0.0,3.41,3.41,0.0
+BMC,BMC_N,N,2001,2024,49.02,49.02,0.0,0.0,47.71,47.71,0.0
+BMC,BMC_P/N,P/N,2001,2024,41.88,41.88,0.0,0.0,49.58,50.42,0.84
+BMC,BMC_P/S,P/S,2001,2024,58.87,58.87,0.0,0.0,37.1,37.1,0.0
+BMC,BMC_R/C,R/C,2001,2024,31.38,31.38,0.0,0.0,63.17,63.61,0.44
+BMC,BMC_R/N,R/N,2001,2024,76.06,76.06,0.0,0.0,22.53,22.53,0.0
+BMC,BMC_R/S,R/S,2001,2024,70.65,70.65,0.0,0.0,29.35,29.35,0.0
+BMC,BMC_S,S,2001,2024,75.16,75.16,0.0,0.0,22.36,22.36,0.0
+BMC,BMC_T,T,2001,2024,37.56,37.56,0.0,0.0,54.3,54.3,0.0
+Thane,Thane_Ward No.1,Ward No.1,2001,2024,0.0,10.13,10.13,0.4404,83.54,73.41,-10.13
+Thane,Thane_Ward No.10,Ward No.10,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.11,Ward No.11,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.12,Ward No.12,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.13,Ward No.13,2001,2024,87.5,87.5,0.0,0.0,12.5,12.5,0.0
+Thane,Thane_Ward No.14,Ward No.14,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.15,Ward No.15,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.16,Ward No.16,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.17,Ward No.17,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.18,Ward No.18,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.19,Ward No.19,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.2,Ward No.2,2001,2024,53.33,73.33,20.0,0.8696,40.0,20.0,-20.0
+Thane,Thane_Ward No.20,Ward No.20,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.21,Ward No.21,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.22,Ward No.22,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.23,Ward No.23,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.24,Ward No.24,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.25,Ward No.25,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.26,Ward No.26,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.27,Ward No.27,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.28,Ward No.28,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.29,Ward No.29,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.3,Ward No.3,2001,2024,66.67,66.67,0.0,0.0,26.67,26.66,-0.01
+Thane,Thane_Ward No.30,Ward No.30,2001,2024,63.64,63.64,0.0,0.0,27.27,27.27,0.0
+Thane,Thane_Ward No.31,Ward No.31,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.32,Ward No.32,2001,2024,80.0,100.0,20.0,0.8696,20.0,0.0,-20.0
+Thane,Thane_Ward No.33,Ward No.33,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.34,Ward No.34,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.35,Ward No.35,2001,2024,47.06,52.94,5.88,0.2557,35.29,29.41,-5.88
+Thane,Thane_Ward No.36,Ward No.36,2001,2024,7.69,7.69,0.0,0.0,92.31,92.3,-0.01
+Thane,Thane_Ward No.37,Ward No.37,2001,2024,0.0,0.0,0.0,0.0,55.55,55.55,0.0
+Thane,Thane_Ward No.38,Ward No.38,2001,2024,25.0,25.0,0.0,0.0,75.0,75.0,0.0
+Thane,Thane_Ward No.39,Ward No.39,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+Thane,Thane_Ward No.4,Ward No.4,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.40,Ward No.40,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.41,Ward No.41,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.42,Ward No.42,2001,2024,50.0,75.0,25.0,1.087,50.0,25.0,-25.0
+Thane,Thane_Ward No.43,Ward No.43,2001,2024,0.0,21.74,21.74,0.9452,82.61,60.87,-21.74
+Thane,Thane_Ward No.44,Ward No.44,2001,2024,10.71,28.57,17.86,0.7765,78.58,60.71,-17.87
+Thane,Thane_Ward No.45,Ward No.45,2001,2024,6.25,25.0,18.75,0.8152,93.75,75.0,-18.75
+Thane,Thane_Ward No.47,Ward No.47,2001,2024,6.9,17.24,10.34,0.4496,93.1,82.75,-10.35
+Thane,Thane_Ward No.5,Ward No.5,2001,2024,20.29,26.09,5.8,0.2522,79.71,73.91,-5.8
+Thane,Thane_Ward No.6,Ward No.6,2001,2024,18.26,18.26,0.0,0.0,81.73,81.74,0.01
+Thane,Thane_Ward No.7,Ward No.7,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.8,Ward No.8,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Thane,Thane_Ward No.9,Ward No.9,2001,2024,46.67,53.33,6.66,0.2896,43.33,36.67,-6.66
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.1,Kalyan-Dombivli (M Corp.) - Ward No.1,2001,2024,6.67,6.67,0.0,0.0,93.34,93.33,-0.01
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.10,Kalyan-Dombivli (M Corp.) - Ward No.10,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,Kalyan-Dombivli (M Corp.) - Ward No.100,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,Kalyan-Dombivli (M Corp.) - Ward No.101,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,Kalyan-Dombivli (M Corp.) - Ward No.102,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.103,Kalyan-Dombivli (M Corp.) - Ward No.103,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.104,Kalyan-Dombivli (M Corp.) - Ward No.104,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,Kalyan-Dombivli (M Corp.) - Ward No.105,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,Kalyan-Dombivli (M Corp.) - Ward No.106,2001,2024,85.71,100.0,14.29,0.6213,14.29,0.0,-14.29
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,Kalyan-Dombivli (M Corp.) - Ward No.107,2001,2024,66.67,100.0,33.33,1.4491,33.33,0.0,-33.33
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,Kalyan-Dombivli (M Corp.) - Ward No.108,2001,2024,18.18,63.64,45.46,1.9765,81.82,36.36,-45.46
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,Kalyan-Dombivli (M Corp.) - Ward No.109,2001,2024,40.0,80.0,40.0,1.7391,60.0,20.0,-40.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,Kalyan-Dombivli (M Corp.) - Ward No.11,2001,2024,3.7,3.7,0.0,0.0,96.3,96.29,-0.01
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,Kalyan-Dombivli (M Corp.) - Ward No.110,2001,2024,40.0,80.0,40.0,1.7391,60.0,20.0,-40.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,Kalyan-Dombivli (M Corp.) - Ward No.111,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,Kalyan-Dombivli (M Corp.) - Ward No.112,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,Kalyan-Dombivli (M Corp.) - Ward No.113,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,Kalyan-Dombivli (M Corp.) - Ward No.114,2001,2024,44.0,48.0,4.0,0.1739,56.0,52.0,-4.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.115,Kalyan-Dombivli (M Corp.) - Ward No.115,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,Kalyan-Dombivli (M Corp.) - Ward No.116,2001,2024,44.44,44.44,0.0,0.0,55.56,55.55,-0.01
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,Kalyan-Dombivli (M Corp.) - Ward No.117,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.118,Kalyan-Dombivli (M Corp.) - Ward No.118,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.119,Kalyan-Dombivli (M Corp.) - Ward No.119,2001,2024,13.89,19.44,5.55,0.2413,86.11,80.56,-5.55
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.12,Kalyan-Dombivli (M Corp.) - Ward No.12,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,Kalyan-Dombivli (M Corp.) - Ward No.120,2001,2024,21.43,35.71,14.28,0.6209,78.57,64.28,-14.29
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,Kalyan-Dombivli (M Corp.) - Ward No.121,2001,2024,52.17,78.26,26.09,1.1343,47.83,21.74,-26.09
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.122,Kalyan-Dombivli (M Corp.) - Ward No.122,2001,2024,0.0,38.89,38.89,1.6909,100.0,61.11,-38.89
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.13,Kalyan-Dombivli (M Corp.) - Ward No.13,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,Kalyan-Dombivli (M Corp.) - Ward No.14,2001,2024,14.29,14.29,0.0,0.0,85.72,85.72,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.15,Kalyan-Dombivli (M Corp.) - Ward No.15,2001,2024,75.0,75.0,0.0,0.0,25.0,25.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.16,Kalyan-Dombivli (M Corp.) - Ward No.16,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,Kalyan-Dombivli (M Corp.) - Ward No.17,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,Kalyan-Dombivli (M Corp.) - Ward No.18,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,Kalyan-Dombivli (M Corp.) - Ward No.19,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.2,Kalyan-Dombivli (M Corp.) - Ward No.2,2001,2024,42.86,42.86,0.0,0.0,57.15,57.15,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,Kalyan-Dombivli (M Corp.) - Ward No.20,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,Kalyan-Dombivli (M Corp.) - Ward No.21,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,Kalyan-Dombivli (M Corp.) - Ward No.22,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,Kalyan-Dombivli (M Corp.) - Ward No.23,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,Kalyan-Dombivli (M Corp.) - Ward No.24,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,Kalyan-Dombivli (M Corp.) - Ward No.25,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,Kalyan-Dombivli (M Corp.) - Ward No.26,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.27,Kalyan-Dombivli (M Corp.) - Ward No.27,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,Kalyan-Dombivli (M Corp.) - Ward No.28,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,Kalyan-Dombivli (M Corp.) - Ward No.29,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,Kalyan-Dombivli (M Corp.) - Ward No.3,2001,2024,33.33,66.67,33.34,1.4496,66.67,33.33,-33.34
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,Kalyan-Dombivli (M Corp.) - Ward No.30,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,Kalyan-Dombivli (M Corp.) - Ward No.31,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,Kalyan-Dombivli (M Corp.) - Ward No.32,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.34,Kalyan-Dombivli (M Corp.) - Ward No.34,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,Kalyan-Dombivli (M Corp.) - Ward No.35,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.36,Kalyan-Dombivli (M Corp.) - Ward No.36,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.38,Kalyan-Dombivli (M Corp.) - Ward No.38,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.39,Kalyan-Dombivli (M Corp.) - Ward No.39,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.4,Kalyan-Dombivli (M Corp.) - Ward No.4,2001,2024,0.0,33.33,33.33,1.4491,100.0,66.67,-33.33
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.40,Kalyan-Dombivli (M Corp.) - Ward No.40,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,Kalyan-Dombivli (M Corp.) - Ward No.41,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.42,Kalyan-Dombivli (M Corp.) - Ward No.42,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,Kalyan-Dombivli (M Corp.) - Ward No.43,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,Kalyan-Dombivli (M Corp.) - Ward No.44,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,Kalyan-Dombivli (M Corp.) - Ward No.45,2001,2024,83.33,100.0,16.67,0.7248,16.67,0.0,-16.67
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,Kalyan-Dombivli (M Corp.) - Ward No.46,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.47,Kalyan-Dombivli (M Corp.) - Ward No.47,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,Kalyan-Dombivli (M Corp.) - Ward No.48,2001,2024,83.33,83.33,0.0,0.0,16.67,16.67,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.49,Kalyan-Dombivli (M Corp.) - Ward No.49,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.5,Kalyan-Dombivli (M Corp.) - Ward No.5,2001,2024,50.0,50.0,0.0,0.0,50.0,50.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,Kalyan-Dombivli (M Corp.) - Ward No.50,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,Kalyan-Dombivli (M Corp.) - Ward No.51,2001,2024,66.67,66.67,0.0,0.0,33.33,33.33,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.52,Kalyan-Dombivli (M Corp.) - Ward No.52,2001,2024,50.0,50.0,0.0,0.0,50.0,50.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.53,Kalyan-Dombivli (M Corp.) - Ward No.53,2001,2024,50.0,50.0,0.0,0.0,25.0,25.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,Kalyan-Dombivli (M Corp.) - Ward No.54,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,Kalyan-Dombivli (M Corp.) - Ward No.55,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,Kalyan-Dombivli (M Corp.) - Ward No.56,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,Kalyan-Dombivli (M Corp.) - Ward No.58,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,Kalyan-Dombivli (M Corp.) - Ward No.59,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.6,Kalyan-Dombivli (M Corp.) - Ward No.6,2001,2024,22.22,22.22,0.0,0.0,77.78,77.78,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,Kalyan-Dombivli (M Corp.) - Ward No.61,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,Kalyan-Dombivli (M Corp.) - Ward No.62,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,Kalyan-Dombivli (M Corp.) - Ward No.63,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.64,Kalyan-Dombivli (M Corp.) - Ward No.64,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,Kalyan-Dombivli (M Corp.) - Ward No.65,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,Kalyan-Dombivli (M Corp.) - Ward No.66,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,Kalyan-Dombivli (M Corp.) - Ward No.67,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,Kalyan-Dombivli (M Corp.) - Ward No.68,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,Kalyan-Dombivli (M Corp.) - Ward No.69,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,Kalyan-Dombivli (M Corp.) - Ward No.7,2001,2024,15.38,15.38,0.0,0.0,84.61,84.62,0.01
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,Kalyan-Dombivli (M Corp.) - Ward No.70,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,Kalyan-Dombivli (M Corp.) - Ward No.71,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,Kalyan-Dombivli (M Corp.) - Ward No.73,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,Kalyan-Dombivli (M Corp.) - Ward No.74,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,Kalyan-Dombivli (M Corp.) - Ward No.76,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,Kalyan-Dombivli (M Corp.) - Ward No.78,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.8,Kalyan-Dombivli (M Corp.) - Ward No.8,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,Kalyan-Dombivli (M Corp.) - Ward No.80,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,Kalyan-Dombivli (M Corp.) - Ward No.81,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,Kalyan-Dombivli (M Corp.) - Ward No.82,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,Kalyan-Dombivli (M Corp.) - Ward No.83,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,Kalyan-Dombivli (M Corp.) - Ward No.84,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,Kalyan-Dombivli (M Corp.) - Ward No.85,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,Kalyan-Dombivli (M Corp.) - Ward No.86,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,Kalyan-Dombivli (M Corp.) - Ward No.87,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.88,Kalyan-Dombivli (M Corp.) - Ward No.88,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,Kalyan-Dombivli (M Corp.) - Ward No.89,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.9,Kalyan-Dombivli (M Corp.) - Ward No.9,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.90,Kalyan-Dombivli (M Corp.) - Ward No.90,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,Kalyan-Dombivli (M Corp.) - Ward No.91,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,Kalyan-Dombivli (M Corp.) - Ward No.92,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,Kalyan-Dombivli (M Corp.) - Ward No.94,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.95,Kalyan-Dombivli (M Corp.) - Ward No.95,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,Kalyan-Dombivli (M Corp.) - Ward No.96,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,Kalyan-Dombivli (M Corp.) - Ward No.98,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.99,Kalyan-Dombivli (M Corp.) - Ward No.99,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.1,Navi Mumbai (M Corp.) - Ward No.1,2001,2024,50.0,50.0,0.0,0.0,50.0,50.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.10,Navi Mumbai (M Corp.) - Ward No.10,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.100,Navi Mumbai (M Corp.) - Ward No.100,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,Navi Mumbai (M Corp.) - Ward No.101,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.102,Navi Mumbai (M Corp.) - Ward No.102,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.103,Navi Mumbai (M Corp.) - Ward No.103,2001,2024,40.0,40.0,0.0,0.0,60.0,60.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.104,Navi Mumbai (M Corp.) - Ward No.104,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.105,Navi Mumbai (M Corp.) - Ward No.105,2001,2024,83.33,83.33,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.106,Navi Mumbai (M Corp.) - Ward No.106,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.107,Navi Mumbai (M Corp.) - Ward No.107,2001,2024,32.14,32.14,0.0,0.0,21.43,21.42,-0.01
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.108,Navi Mumbai (M Corp.) - Ward No.108,2001,2024,66.67,66.67,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.109,Navi Mumbai (M Corp.) - Ward No.109,2001,2024,50.0,100.0,50.0,2.1739,50.0,0.0,-50.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.11,Navi Mumbai (M Corp.) - Ward No.11,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.110,Navi Mumbai (M Corp.) - Ward No.110,2001,2024,9.09,18.18,9.09,0.3952,54.54,45.45,-9.09
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.111,Navi Mumbai (M Corp.) - Ward No.111,2001,2024,6.25,6.25,0.0,0.0,18.75,18.75,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.13,Navi Mumbai (M Corp.) - Ward No.13,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.14,Navi Mumbai (M Corp.) - Ward No.14,2001,2024,87.5,87.5,0.0,0.0,12.5,12.5,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.15,Navi Mumbai (M Corp.) - Ward No.15,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.16,Navi Mumbai (M Corp.) - Ward No.16,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.17,Navi Mumbai (M Corp.) - Ward No.17,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.18,Navi Mumbai (M Corp.) - Ward No.18,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,Navi Mumbai (M Corp.) - Ward No.19,2001,2024,50.0,100.0,50.0,2.1739,50.0,0.0,-50.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.2,Navi Mumbai (M Corp.) - Ward No.2,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,Navi Mumbai (M Corp.) - Ward No.20,2001,2024,70.0,70.0,0.0,0.0,30.0,30.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.21,Navi Mumbai (M Corp.) - Ward No.21,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.22,Navi Mumbai (M Corp.) - Ward No.22,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.23,Navi Mumbai (M Corp.) - Ward No.23,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.24,Navi Mumbai (M Corp.) - Ward No.24,2001,2024,45.45,45.45,0.0,0.0,36.36,36.36,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,Navi Mumbai (M Corp.) - Ward No.25,2001,2024,66.67,66.67,0.0,0.0,33.33,33.34,0.01
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.26,Navi Mumbai (M Corp.) - Ward No.26,2001,2024,40.48,42.86,2.38,0.1035,59.52,57.14,-2.38
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.27,Navi Mumbai (M Corp.) - Ward No.27,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.28,Navi Mumbai (M Corp.) - Ward No.28,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.29,Navi Mumbai (M Corp.) - Ward No.29,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.3,Navi Mumbai (M Corp.) - Ward No.3,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.30,Navi Mumbai (M Corp.) - Ward No.30,2001,2024,0.0,18.18,18.18,0.7904,90.91,72.72,-18.19
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,Navi Mumbai (M Corp.) - Ward No.31,2001,2024,25.0,37.5,12.5,0.5435,75.0,62.5,-12.5
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.32,Navi Mumbai (M Corp.) - Ward No.32,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.33,Navi Mumbai (M Corp.) - Ward No.33,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.35,Navi Mumbai (M Corp.) - Ward No.35,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.36,Navi Mumbai (M Corp.) - Ward No.36,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.37,Navi Mumbai (M Corp.) - Ward No.37,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.38,Navi Mumbai (M Corp.) - Ward No.38,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,Navi Mumbai (M Corp.) - Ward No.39,2001,2024,50.0,50.0,0.0,0.0,50.0,50.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,Navi Mumbai (M Corp.) - Ward No.4,2001,2024,66.67,66.67,0.0,0.0,33.33,33.33,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.41,Navi Mumbai (M Corp.) - Ward No.41,2001,2024,11.11,11.11,0.0,0.0,66.67,66.67,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.42,Navi Mumbai (M Corp.) - Ward No.42,2001,2024,25.0,25.0,0.0,0.0,62.5,62.5,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.43,Navi Mumbai (M Corp.) - Ward No.43,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.45,Navi Mumbai (M Corp.) - Ward No.45,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.46,Navi Mumbai (M Corp.) - Ward No.46,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.48,Navi Mumbai (M Corp.) - Ward No.48,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.5,Navi Mumbai (M Corp.) - Ward No.5,2001,2024,33.33,33.33,0.0,0.0,66.67,66.66,-0.01
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.50,Navi Mumbai (M Corp.) - Ward No.50,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.51,Navi Mumbai (M Corp.) - Ward No.51,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.52,Navi Mumbai (M Corp.) - Ward No.52,2001,2024,38.89,38.89,0.0,0.0,22.22,22.22,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.53,Navi Mumbai (M Corp.) - Ward No.53,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.54,Navi Mumbai (M Corp.) - Ward No.54,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.55,Navi Mumbai (M Corp.) - Ward No.55,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.56,Navi Mumbai (M Corp.) - Ward No.56,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.57,Navi Mumbai (M Corp.) - Ward No.57,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.58,Navi Mumbai (M Corp.) - Ward No.58,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.59,Navi Mumbai (M Corp.) - Ward No.59,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.6,Navi Mumbai (M Corp.) - Ward No.6,2001,2024,0.0,0.0,0.0,0.0,100.0,100.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.60,Navi Mumbai (M Corp.) - Ward No.60,2001,2024,42.86,42.86,0.0,0.0,42.86,42.86,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.61,Navi Mumbai (M Corp.) - Ward No.61,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.62,Navi Mumbai (M Corp.) - Ward No.62,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.63,Navi Mumbai (M Corp.) - Ward No.63,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.64,Navi Mumbai (M Corp.) - Ward No.64,2001,2024,50.0,50.0,0.0,0.0,0.0,16.67,16.67
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.65,Navi Mumbai (M Corp.) - Ward No.65,2001,2024,21.74,21.74,0.0,0.0,21.74,26.09,4.35
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.66,Navi Mumbai (M Corp.) - Ward No.66,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.67,Navi Mumbai (M Corp.) - Ward No.67,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.68,Navi Mumbai (M Corp.) - Ward No.68,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.69,Navi Mumbai (M Corp.) - Ward No.69,2001,2024,64.71,64.71,0.0,0.0,35.29,35.29,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.7,Navi Mumbai (M Corp.) - Ward No.7,2001,2024,75.0,100.0,25.0,1.087,25.0,0.0,-25.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.70,Navi Mumbai (M Corp.) - Ward No.70,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.71,Navi Mumbai (M Corp.) - Ward No.71,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.72,Navi Mumbai (M Corp.) - Ward No.72,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.73,Navi Mumbai (M Corp.) - Ward No.73,2001,2024,60.0,60.0,0.0,0.0,40.0,40.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,Navi Mumbai (M Corp.) - Ward No.74,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.75,Navi Mumbai (M Corp.) - Ward No.75,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,Navi Mumbai (M Corp.) - Ward No.76,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.77,Navi Mumbai (M Corp.) - Ward No.77,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.78,Navi Mumbai (M Corp.) - Ward No.78,2001,2024,75.0,75.0,0.0,0.0,25.0,25.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.79,Navi Mumbai (M Corp.) - Ward No.79,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.8,Navi Mumbai (M Corp.) - Ward No.8,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.80,Navi Mumbai (M Corp.) - Ward No.80,2001,2024,58.97,58.97,0.0,0.0,41.03,41.02,-0.01
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.81,Navi Mumbai (M Corp.) - Ward No.81,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.82,Navi Mumbai (M Corp.) - Ward No.82,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.83,Navi Mumbai (M Corp.) - Ward No.83,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.84,Navi Mumbai (M Corp.) - Ward No.84,2001,2024,45.45,45.45,0.0,0.0,27.27,27.27,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.85,Navi Mumbai (M Corp.) - Ward No.85,2001,2024,40.0,40.0,0.0,0.0,40.0,40.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.86,Navi Mumbai (M Corp.) - Ward No.86,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.88,Navi Mumbai (M Corp.) - Ward No.88,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.9,Navi Mumbai (M Corp.) - Ward No.9,2001,2024,83.33,83.33,0.0,0.0,16.67,16.67,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.90,Navi Mumbai (M Corp.) - Ward No.90,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.91,Navi Mumbai (M Corp.) - Ward No.91,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,Navi Mumbai (M Corp.) - Ward No.92,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.95,Navi Mumbai (M Corp.) - Ward No.95,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.96,Navi Mumbai (M Corp.) - Ward No.96,2001,2024,16.67,16.67,0.0,0.0,50.0,50.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.97,Navi Mumbai (M Corp.) - Ward No.97,2001,2024,25.0,25.0,0.0,0.0,25.0,25.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.98,Navi Mumbai (M Corp.) - Ward No.98,2001,2024,60.0,60.0,0.0,0.0,10.0,10.0,0.0
+NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.99,Navi Mumbai (M Corp.) - Ward No.99,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 01 Aundh,Admin Ward 01 Aundh,2001,2024,51.79,56.41,4.62,0.2009,48.21,43.59,-4.62
+Pune,Pune_Admin Ward 02 Ghole Road,Admin Ward 02 Ghole Road,2001,2024,86.76,86.76,0.0,0.0,13.23,13.23,0.0
+Pune,Pune_Admin Ward 03 Kothrud Karveroad,Admin Ward 03 Kothrud Karveroad,2001,2024,64.2,64.2,0.0,0.0,35.8,35.8,0.0
+Pune,Pune_Admin Ward 04 Warje Karvenagar,Admin Ward 04 Warje Karvenagar,2001,2024,81.43,81.43,0.0,0.0,18.57,18.57,0.0
+Pune,Pune_Admin Ward 05 Dhole Patil Rd,Admin Ward 05 Dhole Patil Rd,2001,2024,74.16,76.4,2.24,0.0974,25.85,23.59,-2.26
+Pune,Pune_Admin Ward 06 Yerawda - Sangamwadi,Admin Ward 06 Yerawda - Sangamwadi,2001,2024,45.0,46.88,1.88,0.0817,55.0,53.13,-1.87
+Pune,Pune_Admin Ward 07 Nagar Road,Admin Ward 07 Nagar Road,2001,2024,67.19,82.03,14.84,0.6452,32.81,17.97,-14.84
+Pune,Pune_Admin Ward 08 KasbaVishrambaugwada,Admin Ward 08 KasbaVishrambaugwada,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 09 Tilak Road,Admin Ward 09 Tilak Road,2001,2024,73.49,78.31,4.82,0.2096,26.51,21.68,-4.83
+Pune,Pune_Admin Ward 10 Sahakarnagar,Admin Ward 10 Sahakarnagar,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 11 Bibwewadi,Admin Ward 11 Bibwewadi,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 12 Bhavani Peth,Admin Ward 12 Bhavani Peth,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 13 Hadapsar,Admin Ward 13 Hadapsar,2001,2024,41.86,59.3,17.44,0.7583,58.14,40.7,-17.44
+Pune,Pune_Admin Ward 14 Dhankawadi,Admin Ward 14 Dhankawadi,2001,2024,80.33,88.52,8.19,0.3561,19.68,11.48,-8.2
+Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Admin Ward 15 Kondhwa Wanavdi,2001,2024,74.77,83.78,9.01,0.3917,25.22,16.22,-9.0

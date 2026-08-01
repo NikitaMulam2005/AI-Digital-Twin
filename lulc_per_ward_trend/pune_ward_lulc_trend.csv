@@ -1,0 +1,16 @@
+region,ward_uid,ward,earliest_year,latest_year,pct_impervious_earliest,pct_impervious_latest,pct_impervious_change,avg_annual_pct_impervious_change,pct_vegetated_earliest,pct_vegetated_latest,pct_vegetated_change
+Pune,Pune_Admin Ward 01 Aundh,Admin Ward 01 Aundh,2001,2024,51.79,56.41,4.62,0.2009,48.21,43.59,-4.62
+Pune,Pune_Admin Ward 02 Ghole Road,Admin Ward 02 Ghole Road,2001,2024,86.76,86.76,0.0,0.0,13.23,13.23,0.0
+Pune,Pune_Admin Ward 03 Kothrud Karveroad,Admin Ward 03 Kothrud Karveroad,2001,2024,64.2,64.2,0.0,0.0,35.8,35.8,0.0
+Pune,Pune_Admin Ward 04 Warje Karvenagar,Admin Ward 04 Warje Karvenagar,2001,2024,81.43,81.43,0.0,0.0,18.57,18.57,0.0
+Pune,Pune_Admin Ward 05 Dhole Patil Rd,Admin Ward 05 Dhole Patil Rd,2001,2024,74.16,76.4,2.24,0.0974,25.85,23.59,-2.26
+Pune,Pune_Admin Ward 06 Yerawda - Sangamwadi,Admin Ward 06 Yerawda - Sangamwadi,2001,2024,45.0,46.88,1.88,0.0817,55.0,53.13,-1.87
+Pune,Pune_Admin Ward 07 Nagar Road,Admin Ward 07 Nagar Road,2001,2024,67.19,82.03,14.84,0.6452,32.81,17.97,-14.84
+Pune,Pune_Admin Ward 08 KasbaVishrambaugwada,Admin Ward 08 KasbaVishrambaugwada,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 09 Tilak Road,Admin Ward 09 Tilak Road,2001,2024,73.49,78.31,4.82,0.2096,26.51,21.68,-4.83
+Pune,Pune_Admin Ward 10 Sahakarnagar,Admin Ward 10 Sahakarnagar,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 11 Bibwewadi,Admin Ward 11 Bibwewadi,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 12 Bhavani Peth,Admin Ward 12 Bhavani Peth,2001,2024,100.0,100.0,0.0,0.0,0.0,0.0,0.0
+Pune,Pune_Admin Ward 13 Hadapsar,Admin Ward 13 Hadapsar,2001,2024,41.86,59.3,17.44,0.7583,58.14,40.7,-17.44
+Pune,Pune_Admin Ward 14 Dhankawadi,Admin Ward 14 Dhankawadi,2001,2024,80.33,88.52,8.19,0.3561,19.68,11.48,-8.2
+Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Admin Ward 15 Kondhwa Wanavdi,2001,2024,74.77,83.78,9.01,0.3917,25.22,16.22,-9.0
