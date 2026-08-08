@@ -1,0 +1,828 @@
+ward_uid_1,region_1,ward_uid_2,region_2,shared_boundary_km,same_region
+BMC_G/S,BMC,BMC_D,BMC,2.0581274542619736,True
+BMC_G/S,BMC,BMC_E,BMC,1.4047715286903188,True
+BMC_G/S,BMC,BMC_F/S,BMC,2.456904130878989,True
+BMC_G/S,BMC,BMC_G/N,BMC,2.004021824160615,True
+BMC_F/N,BMC,BMC_F/S,BMC,4.26032469561543,True
+BMC_F/N,BMC,BMC_G/N,BMC,4.726135923106919,True
+BMC_F/N,BMC,BMC_M/W,BMC,4.943832951858596,True
+BMC_F/N,BMC,BMC_L,BMC,1.428924248560621,True
+BMC_M/W,BMC,BMC_M/E,BMC,10.655993890503343,True
+BMC_M/W,BMC,BMC_N,BMC,3.001030826582978,True
+BMC_M/W,BMC,BMC_L,BMC,2.7562999520803277,True
+BMC_H/W,BMC,BMC_G/N,BMC,0.5623117785255104,True
+BMC_H/W,BMC,BMC_H/E,BMC,4.477022521073264,True
+BMC_H/W,BMC,BMC_K/E,BMC,0.030010558187561223,True
+BMC_H/W,BMC,BMC_K/W,BMC,3.049137888421185,True
+BMC_G/N,BMC,BMC_F/S,BMC,1.0649162849009823,True
+BMC_G/N,BMC,BMC_H/E,BMC,2.3005044706977724,True
+BMC_G/N,BMC,BMC_L,BMC,0.43503002570610166,True
+BMC_M/E,BMC,BMC_N,BMC,7.320773706752159,True
+BMC_E,BMC,BMC_C,BMC,0.6355010204846656,True
+BMC_E,BMC,BMC_B,BMC,2.152723214740057,True
+BMC_E,BMC,BMC_D,BMC,2.9780193231022496,True
+BMC_E,BMC,BMC_F/S,BMC,2.394643254634804,True
+BMC_H/E,BMC,BMC_L,BMC,4.362020808203482,True
+BMC_H/E,BMC,BMC_K/E,BMC,5.44675849632415,True
+BMC_H/E,BMC,BMC_K/W,BMC,0.029982277699825543,True
+BMC_R/S,BMC,BMC_T,BMC,1.679489411241028,True
+BMC_R/S,BMC,BMC_P/N,BMC,14.230922432370768,True
+BMC_R/S,BMC,BMC_R/C,BMC,12.273635137864026,True
+BMC_T,BMC,BMC_S,BMC,15.08895135792868,True
+BMC_T,BMC,BMC_P/S,BMC,2.9456705340030274,True
+BMC_T,BMC,Thane_Ward No.30,Thane,1.5810384559575765,False
+BMC_T,BMC,Thane_Ward No.27,Thane,1.026089610574978,False
+BMC_T,BMC,BMC_P/N,BMC,2.5843383287626245,True
+BMC_T,BMC,Thane_Ward No.26,Thane,0.5440134437376744,False
+BMC_T,BMC,Thane_Ward No.25,Thane,0.10658461754166801,False
+BMC_T,BMC,Thane_Ward No.24,Thane,0.3883321280501762,False
+BMC_T,BMC,Thane_Ward No.13,Thane,0.0639268150818947,False
+BMC_T,BMC,BMC_R/C,BMC,1.674230524119402,True
+BMC_T,BMC,Thane_Ward No.6,Thane,0.6227478841377977,False
+BMC_N,BMC,BMC_L,BMC,5.78020450664369,True
+BMC_N,BMC,BMC_S,BMC,9.190812023753557,True
+BMC_P/S,BMC,BMC_K/E,BMC,5.154494766574401,True
+BMC_P/S,BMC,BMC_K/W,BMC,5.76062187134847,True
+BMC_P/S,BMC,BMC_S,BMC,1.072406382455547,True
+BMC_P/S,BMC,BMC_P/N,BMC,11.478988475481557,True
+BMC_P/N,BMC,BMC_K/W,BMC,3.8795819809513263,True
+BMC_P/N,BMC,BMC_R/C,BMC,4.727059952983914,True
+BMC_B,BMC,BMC_A,BMC,1.4814605435171408,True
+BMC_B,BMC,BMC_C,BMC,1.674721568482619,True
+BMC_R/C,BMC,BMC_R/N,BMC,7.400243940035852,True
+BMC_K/E,BMC,BMC_L,BMC,7.298136622978876,True
+BMC_K/E,BMC,BMC_K/W,BMC,5.9619953458724,True
+BMC_K/E,BMC,BMC_S,BMC,1.2596300238435938,True
+BMC_L,BMC,BMC_S,BMC,3.90841524019727,True
+BMC_A,BMC,BMC_C,BMC,1.3295864149867442,True
+BMC_C,BMC,BMC_D,BMC,1.8584327005319166,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.53,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,1.0121730335454973,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.53,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,KDMC,0.4087935918533152,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.53,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,KDMC,0.7990526223951147,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.53,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.52,KDMC,0.9552027803483176,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,1.149686356945522,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,0.7348073285153497,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.47,KDMC,0.6029397320852263,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,0.1720497011646006,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,0.27871794067132893,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,0.6767987656056083,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.49,KDMC,1.4091170306940108,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.48,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,KDMC,0.28152232529278487,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.49,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,KDMC,1.1801056257705977,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,0.04654784943802638,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,KDMC,0.2775574203019176,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.50,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,KDMC,1.609443599551595,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,0.3343713706876605,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,KDMC,0.3251760983137521,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,0.4361022875113053,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,0.23708762972975594,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,0.05679840236525836,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,0.5592518854372945,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.61,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,0.5643626936123846,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,0.3256821350258326,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.77,KDMC,0.5532612465027487,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,0.43160872950227863,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,KDMC,0.19917512420319203,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,KDMC,0.5846164892553338,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.68,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,0.1690158041959714,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,KDMC,0.4678825445029206,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,0.1707398179331961,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,0.16595891365656407,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.77,KDMC,0.23721401588396743,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,KDMC,0.22044613311547492,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.76,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,0.13398114293960103,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.03046227074320187,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,KDMC,0.6634788714528007,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,0.89159183858277,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,KDMC,1.1306631096489448,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.81,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,0.326099444487727,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,0.3150462415464094,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.79,KDMC,0.775162899408691,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.80,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,0.13456936927311772,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,0.2930894376355477,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,0.02998430016814366,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.59,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,KDMC,0.659949803623043,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,0.030205310599059693,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,0.7472600992601287,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.58,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,KDMC,0.3616585505979073,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.79,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,0.632906072543085,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.79,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,0.3440495138947094,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.79,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,0.7237185565053162,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,KDMC,0.8564431252255075,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.64,KDMC,0.31350000226651814,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,0.2333718904341503,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.62,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,0.12177025336814624,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.77,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,0.4592346469170147,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.77,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,0.4552227067321216,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,0.16988372445315225,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,KDMC,0.37601527935105955,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.60,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,0.32369146302955726,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,0.36856313286181164,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.78,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,0.3425538044172715,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,0.18063657882482204,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,KDMC,0.19350256704448704,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.51,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.52,KDMC,1.8575598389166035,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.52,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,KDMC,0.5264299845200089,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,1.053583172689933,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,KDMC,0.5393630973352629,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,0.4795143003219927,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,0.5715326121687517,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.66,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,0.6795414859183453,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,0.9569856979590816,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,0.02998683100462145,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,0.44822221282740465,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,0.6522240284730769,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.30,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,0.13913115535066237,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,KDMC,0.29202913675133846,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.57,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,KDMC,0.6474235948541094,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,0.8913438535421452,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.55,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.56,KDMC,0.2827719609399412,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,0.16422843420311004,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.67,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,KDMC,0.4011009115909123,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,1.1168786554966932,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,KDMC,0.5838852229547387,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.64,KDMC,0.6989447160223621,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.65,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,0.6721868077209477,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.54,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.64,KDMC,0.7732651200956765,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.64,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.63,KDMC,0.6392382003394352,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,0.4127366205668174,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,KDMC,2.006388249889676,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,0.267959168968904,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,KDMC,0.22042440035434918,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.47,KDMC,1.2233673271296948,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.46,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,1.2477827037035523,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.47416449147875445,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,KDMC,0.6043169213771085,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,0.03223797252293187,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.82,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,0.3229710809830209,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.38,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,0.9125443953178354,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.38,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.39,KDMC,1.3831340325905517,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.38,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,0.5854432090079243,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.38,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,0.88783399118801,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.26088149742451594,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,KDMC,0.748174165763048,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,0.30974520930287797,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.83,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,0.4254679081731776,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,0.5873661066947272,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.69,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,1.231380675731076,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,0.27095646580275945,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.75,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,0.08345303039126814,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,0.0710934915412113,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.72,KDMC,0.4483520577948405,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.70,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,0.5320102075285112,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.72,KDMC,0.7503019674758364,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,KDMC,0.302762726735854,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.71,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.47,KDMC,0.31063867479461144,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.72,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,0.10888010260468241,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.72,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,KDMC,0.7571716782697935,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,KDMC,0.5675450617948843,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.74,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,KDMC,0.7566489005219751,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.73,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.47,KDMC,0.6679321361471325,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,0.06312883094845065,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,0.6776591711521229,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,KDMC,0.3215724091483309,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.40,KDMC,0.6670317509496438,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.92,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,0.5181465897207335,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,0.6209828329320158,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,0.29463256538123245,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,0.030261113202316232,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,0.030049134058401827,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,KDMC,1.366880777156829,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,0.3710623298257264,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.45,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.34,KDMC,0.3991711115402245,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,0.02998002953633457,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,0.030288545955449005,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,0.3188439786396019,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.44,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,0.9912681563035585,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,0.8079860188149484,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.88,KDMC,0.11442168889176386,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,0.20917512866029306,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.43,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.42,KDMC,1.0602509744161193,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.39,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.40,KDMC,0.8972981790668312,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.39,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,0.48358705977544625,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.40,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,KDMC,0.5968281169824325,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.40,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,0.030178411575738362,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.42,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,0.546583938583888,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.42,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,0.40972615514352007,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.10157173955138772,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.88,KDMC,0.22331851816207662,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.90,KDMC,0.71489323634892,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.89,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,0.2791834522889877,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.09580596045438222,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.99,KDMC,0.194979875354402,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.90,KDMC,0.5810455705014006,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,0.4401319297319866,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,0.031105386232690935,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,0.4212401580062142,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.91,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,0.21066290008974534,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.41,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.90,KDMC,0.32004918342601973,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.95,KDMC,0.21033799319234778,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,0.12030037938021323,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.94,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,0.6048198077763758,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,0.030094993932798717,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,0.4121728230791633,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.93,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,0.2270642839230329,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,0.22986606450507271,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,KDMC,0.7786160679797857,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.16,KDMC,0.5596478053656565,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.25,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,0.09010245222109267,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.1,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,2.151153478341881,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.1,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.2,KDMC,2.6467499159410823,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.34,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.36,KDMC,0.8775178804924544,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.34,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,KDMC,0.5338873746697378,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.34,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.33,KDMC,0.64806877856982,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.36,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,0.6344363011035883,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.36,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,KDMC,0.36425764769711444,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.33,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,KDMC,0.6602847594135469,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.33,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,0.35226769596432383,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.33,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,KDMC,0.7500553391819813,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,0.1460739545797518,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.35,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,0.608254875859363,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,0.6241820228793341,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,0.030503726762446108,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,KDMC,0.6778921129125289,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.32,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,0.3557288965194042,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,0.07875931354430467,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,0.46585849945937036,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.31,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,KDMC,0.02997396889403563,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,0.4728635500200451,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,0.3854640146934657,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.21,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,1.0592121517156208,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,0.5850844307377943,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.29,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,0.4849310979148885,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,0.37293146678881506,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,0.38183868034987356,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,0.5676593693336733,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,KDMC,0.082131578696683,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.22,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,KDMC,0.19012016170803153,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,0.13771107451932427,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.37,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,0.034749036860244456,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,0.38425695128309384,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,0.2336936376949274,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.28,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.27,KDMC,0.5385368501462179,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,KDMC,0.34078362283187197,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.26,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.27,KDMC,0.645504281172179,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,KDMC,0.3765344957297011,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,0.21565019786200368,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,KDMC,0.5359445715447536,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.27,KDMC,0.9316627889320483,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.23,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,KDMC,0.3641597694929842,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.27,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,KDMC,0.3677959850972337,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.24,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,0.7028201649584201,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.16,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,0.6355117693643185,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.16,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.5,KDMC,1.0928777335302269,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,KDMC,0.7952791222614244,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.17,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.5,KDMC,0.5315838885500486,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.5,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,KDMC,0.6135474026839408,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.5,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.4,KDMC,1.4297859101697385,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,KDMC,0.7114471226901544,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.18,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.4,KDMC,0.3753012860386215,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.4,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,KDMC,0.6416492037374039,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.4,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,KDMC,1.271827537114521,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.19,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,KDMC,0.756925035142883,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,0.9059936334171463,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.3,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.2,KDMC,1.5185307751343946,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.20,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.2,KDMC,0.5713413513496022,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.10,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,1.0493043157532722,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.10,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,KDMC,0.03015959506525293,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.10,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.9,KDMC,2.8604574093467257,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.10,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.8,KDMC,0.640590482306773,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.6,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,KDMC,1.299224963129559,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.6,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,0.030538866533739252,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.6,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,KDMC,1.3379810909141934,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.12,KDMC,0.413455813676786,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.13,KDMC,1.3413025336844504,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,0.3576720796094729,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.14,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,KDMC,0.02998342414673875,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.13,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.12,KDMC,0.6348359993528907,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.13,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,0.9739254242673553,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.12,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,2.0358018188240297,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,3.9443157509812714,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.7,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.8,KDMC,0.49765332600522855,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.11,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.8,KDMC,0.030129002828374277,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.8,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.9,KDMC,1.296618558861689,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,1.699071540813381,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.6384577031167199,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,Thane_Ward No.44,Thane,0.06164056728564287,False
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.115,KDMC,1.587560523749034,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.114,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,KDMC,0.590427021107852,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.49846095939363066,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.112,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,KDMC,1.467650667537338,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.47155152293907526,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.113,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.115,KDMC,1.4621913751838187,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.115,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.6259763778480928,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.119,KDMC,1.8960642655547848,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,KDMC,1.393776545670831,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,KDMC,1.4360249089229113,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,KDMC,1.2354253513979219,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,2.6476532237521697,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.117,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,KDMC,1.218609858862131,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.122,KDMC,2.1347515651628615,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,KDMC,2.0509811625639123,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,KDMC,0.06297658236839865,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.2767979386218499,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.121,KDMC,Thane_Ward No.44,Thane,0.21176779353531638,False
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,KDMC,0.6287826470135226,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,0.7936596057948776,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,1.4285361374433243,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.109,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,0.6936491376036453,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.122,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,KDMC,2.0627994501239773,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,KDMC,1.4599615312433056,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.120,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.029982597240651488,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,KDMC,1.1295168408810157,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,0.847000908317317,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.110,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,0.45056061105238243,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.116,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,1.7795414815828665,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.119,KDMC,0.8234687391360821,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,1.0275775891073144,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,0.9333768454216865,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.108,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,0.9844777664744878,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,1.3014725533267253,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.111,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,KDMC,0.6603862835831611,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,0.6981107897922916,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,0.9679105461594502,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.86,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,0.0859615990270446,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.5241772709168301,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,1.6807785373035378,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.107,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.044469562499053115,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.119,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.118,KDMC,1.683913313775986,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.119,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.9384995089346985,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.029971858905350153,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.5866059215180246,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.87,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.88,KDMC,0.947319892364425,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.88,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.6086202833852581,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.90,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,0.29287938601416474,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.9291518819850579,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.99,KDMC,1.132655073288542,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.100,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,0.117577569202306,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.99,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,0.5968202525396639,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.09947628950273055,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,KDMC,0.9485925976941715,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.98,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,0.09231027111313324,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,0.6727103357978637,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,KDMC,0.2871883593109594,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.97,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,0.6501730790685513,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,0.10141367133488677,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.103,KDMC,0.36699026709970084,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.96,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.95,KDMC,0.7055017734686853,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.103,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.104,KDMC,0.528733541690597,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.103,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,0.5464142187812515,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.103,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.95,KDMC,0.43700106880489764,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.95,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.104,KDMC,0.6006374260620407,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.104,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,KDMC,0.6572552836526603,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.104,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,0.4583265497900695,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.84,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.85,KDMC,2.3871302984983114,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,KDMC,0.44840711463043337,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.102,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,KDMC,1.4393484949262492,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,KDMC,0.15521193390351212,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.101,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.6677829875194302,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.118,KDMC,1.6711803541738286,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.105,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.5307461428041576,True
+KDMC_Kalyan-Dombivli (M Corp.) - Ward No.118,KDMC,KDMC_Kalyan-Dombivli (M Corp.) - Ward No.106,KDMC,0.33287761963018186,True
+Pune_Admin Ward 01 Aundh,Pune,Pune_Admin Ward 03 Kothrud Karveroad,Pune,4.9098003746127485,True
+Pune_Admin Ward 01 Aundh,Pune,Pune_Admin Ward 02 Ghole Road,Pune,3.0918977727271866,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 09 Tilak Road,Pune,1.2895019159974557,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 04 Warje Karvenagar,Pune,1.1925854711720818,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 03 Kothrud Karveroad,Pune,3.120382841047783,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 08 KasbaVishrambaugwada,Pune,1.6854657205529735,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 05 Dhole Patil Rd,Pune,3.0808901804142668,True
+Pune_Admin Ward 02 Ghole Road,Pune,Pune_Admin Ward 06 Yerawda - Sangamwadi,Pune,0.254259075962164,True
+Pune_Admin Ward 03 Kothrud Karveroad,Pune,Pune_Admin Ward 04 Warje Karvenagar,Pune,9.512638439311361,True
+Pune_Admin Ward 04 Warje Karvenagar,Pune,Pune_Admin Ward 09 Tilak Road,Pune,6.255383579097935,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 13 Hadapsar,Pune,3.1327368687832866,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Pune,3.964406950938739,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 08 KasbaVishrambaugwada,Pune,0.7607877382589282,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 12 Bhavani Peth,Pune,2.1328958812372303,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 07 Nagar Road,Pune,5.259674688388278,True
+Pune_Admin Ward 05 Dhole Patil Rd,Pune,Pune_Admin Ward 06 Yerawda - Sangamwadi,Pune,1.6635636223854233,True
+Pune_Admin Ward 06 Yerawda - Sangamwadi,Pune,Pune_Admin Ward 07 Nagar Road,Pune,17.508866962131545,True
+Pune_Admin Ward 08 KasbaVishrambaugwada,Pune,Pune_Admin Ward 09 Tilak Road,Pune,2.118706440932048,True
+Pune_Admin Ward 08 KasbaVishrambaugwada,Pune,Pune_Admin Ward 10 Sahakarnagar,Pune,2.1733118698155667,True
+Pune_Admin Ward 08 KasbaVishrambaugwada,Pune,Pune_Admin Ward 12 Bhavani Peth,Pune,3.3005100621884216,True
+Pune_Admin Ward 09 Tilak Road,Pune,Pune_Admin Ward 14 Dhankawadi,Pune,1.7136659300146737,True
+Pune_Admin Ward 09 Tilak Road,Pune,Pune_Admin Ward 10 Sahakarnagar,Pune,3.864540934706441,True
+Pune_Admin Ward 10 Sahakarnagar,Pune,Pune_Admin Ward 14 Dhankawadi,Pune,1.3484287799621866,True
+Pune_Admin Ward 10 Sahakarnagar,Pune,Pune_Admin Ward 11 Bibwewadi,Pune,4.643265358285551,True
+Pune_Admin Ward 10 Sahakarnagar,Pune,Pune_Admin Ward 12 Bhavani Peth,Pune,0.6813186433765571,True
+Pune_Admin Ward 11 Bibwewadi,Pune,Pune_Admin Ward 14 Dhankawadi,Pune,3.8033779455794297,True
+Pune_Admin Ward 11 Bibwewadi,Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Pune,4.997990914855445,True
+Pune_Admin Ward 11 Bibwewadi,Pune,Pune_Admin Ward 12 Bhavani Peth,Pune,0.6273286044511347,True
+Pune_Admin Ward 13 Hadapsar,Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Pune,8.543178527208559,True
+Pune_Admin Ward 14 Dhankawadi,Pune,Pune_Admin Ward 15 Kondhwa Wanavdi,Pune,3.509241699643777,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.24,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,2.7231961915755454,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.24,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,0.9218790923752842,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.24,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,0.16836641541667824,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.24,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.22,NMMC,0.3032846578788784,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.24,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.23,NMMC,1.5372541154325994,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.69,NMMC,4.004709177945363,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,Thane_Ward No.47,Thane,1.008171860263504,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,3.0876958468071907,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,0.2756942625848,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.37,NMMC,0.4653142324123312,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,0.33406432959080534,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,0.5285902518603101,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.27,NMMC,0.6406232434715091,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,0.8298777419811136,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.33,NMMC,0.7848379453809362,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.26,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,2.6766694426796365,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.17,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,0.4592579380895932,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.17,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.16,NMMC,0.5688107544200453,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.17,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,0.6185475744599592,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.17,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,0.5152965840473196,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.16,NMMC,0.3543147683049401,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,0.5867588249785721,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,0.6200308049591067,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.12,NMMC,0.6528626952453114,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.13,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.11,NMMC,0.029983861568061047,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.11,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,0.7666028865914936,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.11,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.12,NMMC,0.3903024612881492,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.11,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,0.8522279645867824,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,Thane_Ward No.40,Thane,0.060091019986833985,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,1.4479667552854107,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,Thane_Ward No.39,Thane,0.0603565377259706,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,Thane_Ward No.31,Thane,0.6473855295509072,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.2,NMMC,2.381700284617263,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,Thane_Ward No.32,Thane,0.7974956189453533,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.1,NMMC,Thane_Ward No.36,Thane,0.2523914316406366,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,NMMC,0.5505796529996667,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,2.191262791773471,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,0.3419761294713286,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.12,NMMC,0.4741779032358416,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,0.1586700334389866,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.7,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,0.8506479045592028,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,0.3649555746325022,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.5,NMMC,0.029987947042457747,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,0.39161540462084304,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,0.6545522884133583,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.8,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.9,NMMC,0.1379265294178531,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.12,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,0.03026110177847191,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.12,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,0.7304202998828854,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.3,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,0.5787100394799685,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.3,NMMC,Thane_Ward No.30,Thane,0.06154806295931844,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.3,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.9,NMMC,2.022766978980956,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.3,NMMC,Thane_Ward No.31,Thane,0.32275899684224435,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.3,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.2,NMMC,1.298684304330474,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,0.9926640946459113,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.10,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.9,NMMC,2.0438180623795876,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,1.2007303354755483,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.14,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.16,NMMC,0.20246128895504797,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,0.9925991198708478,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,NMMC,0.256544559686639,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,0.215358258268969,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.18,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.16,NMMC,0.3371137934098136,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.16,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,0.8919446655061528,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,0.03000717461406423,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.42,NMMC,3.247219706989396,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.59,NMMC,0.04491337046512373,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.53,NMMC,0.9419140894570507,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,0.6422721041241186,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.52,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,0.14401204062390796,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,0.5582021586847159,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.56,NMMC,0.615719012055036,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,0.5514249489054036,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.53,NMMC,0.9099498951509447,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,0.2682031076895589,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.54,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,0.42750346525680116,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.56,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,0.7128806555995514,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.56,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,0.32904545158169635,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.56,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,0.6673796709039788,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.56,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,0.7377488739523536,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,Thane_Ward No.47,Thane,0.42138545751741485,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,1.1399842107794764,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,NMMC,0.9873072588516428,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,Thane_Ward No.41,Thane,0.5437454101827498,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.5,NMMC,1.6938119909493357,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,Thane_Ward No.40,Thane,0.1126305194870251,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.6,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,0.03047180547945566,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.53,NMMC,0.029983721994685374,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,0.2928595621632554,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.50,NMMC,0.4535642687965304,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.51,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,0.4585684664242315,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.50,NMMC,0.6876528458344869,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,0.8925245268205947,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.55,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,0.4301281834560238,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.50,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,0.6298928425080386,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.53,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,0.16713387463566975,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.53,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.59,NMMC,1.3876356999083708,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.69,NMMC,3.1506873190788722,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,0.08348883379998584,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.68,NMMC,0.428966357857554,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,0.36761346412613666,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.47,NMMC,0.12734359136181883,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.48,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,0.5013718033227982,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,0.2082805011435212,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.22,NMMC,0.3565275302516385,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.15,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.23,NMMC,1.0135255850581364,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.49,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.47,NMMC,0.6027130947636893,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,0.02998497263346929,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.47,NMMC,1.083743745222772,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,0.38405092821269265,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.46,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.37,NMMC,0.7599207813099568,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.40,NMMC,0.32578198663770896,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,0.32398270364411574,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,0.506518187485497,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.47,NMMC,0.28103419999182433,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.45,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.37,NMMC,0.030002537332967705,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.42,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.43,NMMC,0.5144027135907984,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.42,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.41,NMMC,2.5405236047264763,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.43,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.40,NMMC,0.7564376217129132,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.43,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.41,NMMC,0.20128474338628383,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,0.43228204817255605,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,0.0300013030878062,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.37,NMMC,0.5849110040380217,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.38,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,0.3375305446609598,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.37,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,0.5611424991633052,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,0.029986052002211966,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,0.25765827036573563,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.36,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.33,NMMC,1.4136964509850942,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.41,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.40,NMMC,0.856375180812875,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.41,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,1.2536854454690531,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.41,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,1.221889478001439,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.34,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,0.5051465285663762,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.34,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,0.294892897555869,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.34,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,0.45773327726217394,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.34,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.33,NMMC,0.34636620179265387,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,1.5706376581413521,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,1.8591703430166593,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.35,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.33,NMMC,0.7235598773846691,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.33,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,0.5511129313644202,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.29,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,0.48920576674732236,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.29,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.30,NMMC,1.0134328130362777,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.29,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,0.9460940976616808,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.27,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,0.398387177837952,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.27,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,0.8799589147476738,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.27,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,0.657876660926033,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,0.6013986697678557,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.32,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,0.2077974741907937,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,0.2785366404392203,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.30,NMMC,1.9191026192098841,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.31,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,0.06557601928112673,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.62,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.63,NMMC,0.5336564056072214,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.62,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.60,NMMC,0.4722658425454825,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.62,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.61,NMMC,0.3597270977006806,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.62,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,0.5441101469851366,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.62,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,0.8346678671700329,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.30,NMMC,0.15686615946826585,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.28,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,0.5795940022934163,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,0.06664913105557034,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,NMMC,0.25976641727654054,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.21,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.22,NMMC,1.1623443200681869,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.2,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,1.0242250377581943,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.2,NMMC,Thane_Ward No.31,Thane,0.3056059015267381,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.2,NMMC,Thane_Ward No.32,Thane,0.16648969227429145,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.5,NMMC,1.7416011696772313,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,Thane_Ward No.40,Thane,0.06049594593777635,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.4,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.9,NMMC,0.5381370818887142,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.5,NMMC,Thane_Ward No.41,Thane,0.10495889316207645,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.5,NMMC,Thane_Ward No.40,Thane,0.22781710238434175,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.39,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.40,NMMC,0.8614542247715632,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.30,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,1.18786147158305,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.23,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.22,NMMC,1.2062959976503054,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.63,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,0.7703586422901748,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.63,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.60,NMMC,0.5735907303484744,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.63,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,0.6788608425675137,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.63,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.64,NMMC,0.39841881956106634,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.25,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,0.5668391900004012,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,Thane_Ward No.47,Thane,0.028910536421446382,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.20,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.19,NMMC,1.0118681770489957,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.9,NMMC,Thane_Ward No.30,Thane,0.1081337078414283,False
+NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,1.094483474525862,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.66,NMMC,0.6735445708245682,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,2.056381426875613,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.57,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,0.7424952789924415,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.61,NMMC,0.03480868456386776,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.58,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.59,NMMC,0.5016514048031305,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.59,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.60,NMMC,0.6932086399503425,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.59,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.61,NMMC,0.5369220727809868,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.61,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.60,NMMC,1.0538289483278789,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.60,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.64,NMMC,1.5688671604137125,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.64,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,2.387510996428367,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.77,NMMC,0.7921905481277517,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,0.7331685298343976,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,1.0108341616658285,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,0.1300693153935787,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.65,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.66,NMMC,0.06020516635659795,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.66,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,0.29923958475105356,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.66,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,0.8649308501351826,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.66,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,0.13447742151233547,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.71,NMMC,0.4624879234058982,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,0.9564982044633631,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.67,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.68,NMMC,0.7862190415011114,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.68,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.69,NMMC,1.5832703787362008,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.69,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.73,NMMC,2.165977493029317,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.69,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.71,NMMC,0.8442523363096719,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.77,NMMC,1.108025841887516,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.82,NMMC,0.08143681191956056,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,2.5782673557479576,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.83,NMMC,1.0293001007969163,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,0.8470466737804493,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.78,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,0.7301736467368145,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,0.5721090117114619,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,0.05957409144213598,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.82,NMMC,0.2969447646362583,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.83,NMMC,0.18785653198683872,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,1.0330470567087913,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,1.0107402696357968,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.79,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,0.026232821756980943,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,0.6365615734521789,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.102,NMMC,1.4426778397199447,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.103,NMMC,1.740310244902914,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,0.7409517339675071,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.90,NMMC,0.976432933754113,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.73,NMMC,3.433898096336371,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,1.0652109302160762,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.80,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,0.4146856029667013,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.71,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.73,NMMC,1.6889914821641205,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.71,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,0.2911622035148136,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.73,NMMC,0.40766817815828643,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,0.12162653267615295,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.72,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,0.38888667113970604,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.73,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,0.5030172107114147,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,0.5487243985201113,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.75,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,1.5187936148005685,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.74,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,0.03344715690650522,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.76,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.77,NMMC,0.5011740104626513,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.90,NMMC,0.3825334329367335,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,0.2706217087027098,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,0.029972694494571194,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.89,NMMC,1.7823920720393094,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.82,NMMC,1.1530370380422545,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.81,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,0.10254926114852593,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.82,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,0.8750318785229899,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.82,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.83,NMMC,0.7281938667009773,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.85,NMMC,1.7685349098088583,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,0.030009632174308236,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,0.46540107889115956,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.84,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.86,NMMC,0.5493605410463952,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.89,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.90,NMMC,0.11661403790831294,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.89,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,0.15998352906553556,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.85,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,0.5157262423860134,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.85,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.96,NMMC,1.878768276796945,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.85,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,0.1236968147740714,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.85,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.86,NMMC,0.942522034691715,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.86,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,0.28322637810963947,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,0.21255952998870956,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.94,NMMC,0.40595060240792497,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.87,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,0.5326525218461491,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,0.47614701032518353,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.90,NMMC,1.370615309069965,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,0.11196666372360685,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,0.52252268744945,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.88,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.94,NMMC,0.2698571433739487,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.90,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,0.9616140310260123,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.106,NMMC,0.030000851766217147,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,0.6481708560048963,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.100,NMMC,0.8396544495141766,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,0.5672646876396874,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.108,NMMC,0.46124976490591013,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,0.5993717801254318,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.99,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,0.8449486523591262,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,0.12505403195737969,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.100,NMMC,1.2455341033229985,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.91,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,0.6253134317953932,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.106,NMMC,1.434980259709327,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.105,NMMC,1.3973793537321908,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,0.029989817539747242,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.108,NMMC,1.9562117247105262,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.107,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.111,NMMC,2.568054407253197,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.94,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,0.4989998312444322,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.94,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,0.4336643840071,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.97,NMMC,0.1958579951059876,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,0.7310596186729008,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.95,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.96,NMMC,0.3153702134675289,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.96,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.97,NMMC,1.8414089244256435,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.97,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,2.394007828532503,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.97,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,0.43754644666655357,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.108,NMMC,0.5691050300102716,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.109,NMMC,0.8986891735440761,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,0.9155338667965739,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,0.754722983112929,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.98,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.110,NMMC,1.4179936734587197,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.93,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,0.11711255850617372,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.92,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.100,NMMC,0.6574372824039769,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.100,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,1.2431053564329015,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.103,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.104,NMMC,0.7553868938018017,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.103,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.102,NMMC,0.6152181981859333,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.102,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,0.9785561238338302,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.102,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.104,NMMC,0.8181305525338082,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.106,NMMC,0.8501122473352565,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.105,NMMC,1.3725859219821308,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.101,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.104,NMMC,0.8626295992914605,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.106,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.105,NMMC,1.0083568443798685,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.111,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.108,NMMC,0.9653529287297063,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.111,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.109,NMMC,0.5431960984841574,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.111,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.110,NMMC,2.873867099741876,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.108,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.109,NMMC,1.0012394398185473,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.109,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.110,NMMC,0.9440865273644012,True
+NMMC_Navi Mumbai (M Corp.) - Ward No.104,NMMC,NMMC_Navi Mumbai (M Corp.) - Ward No.105,NMMC,0.08295184415429574,True
+Thane_Ward No.1,Thane,Thane_Ward No.2,Thane,4.5321735291549805,True
+Thane_Ward No.1,Thane,Thane_Ward No.5,Thane,7.916785982392599,True
+Thane_Ward No.2,Thane,Thane_Ward No.3,Thane,3.649226619853704,True
+Thane_Ward No.2,Thane,Thane_Ward No.5,Thane,0.5489879525388879,True
+Thane_Ward No.5,Thane,Thane_Ward No.3,Thane,1.2075310256666894,True
+Thane_Ward No.5,Thane,Thane_Ward No.4,Thane,0.35380690580686697,True
+Thane_Ward No.5,Thane,Thane_Ward No.8,Thane,1.0508143358907016,True
+Thane_Ward No.5,Thane,Thane_Ward No.7,Thane,0.6585328332921248,True
+Thane_Ward No.5,Thane,Thane_Ward No.6,Thane,6.561324408191654,True
+Thane_Ward No.3,Thane,Thane_Ward No.9,Thane,2.4914579981364278,True
+Thane_Ward No.3,Thane,Thane_Ward No.4,Thane,1.3909984664863275,True
+Thane_Ward No.9,Thane,Thane_Ward No.35,Thane,2.300814718696753,True
+Thane_Ward No.9,Thane,Thane_Ward No.18,Thane,0.7437530596439501,True
+Thane_Ward No.9,Thane,Thane_Ward No.4,Thane,3.869254344105938,True
+Thane_Ward No.13,Thane,Thane_Ward No.24,Thane,1.4709669583304976,True
+Thane_Ward No.13,Thane,Thane_Ward No.23,Thane,1.7702724918039612,True
+Thane_Ward No.13,Thane,Thane_Ward No.14,Thane,1.095694505877033,True
+Thane_Ward No.13,Thane,Thane_Ward No.12,Thane,0.9099978906518762,True
+Thane_Ward No.13,Thane,Thane_Ward No.6,Thane,1.2799731948360407,True
+Thane_Ward No.6,Thane,Thane_Ward No.11,Thane,0.10165540754757406,True
+Thane_Ward No.6,Thane,Thane_Ward No.10,Thane,3.111236041920578,True
+Thane_Ward No.6,Thane,Thane_Ward No.12,Thane,2.4590586162134445,True
+Thane_Ward No.6,Thane,Thane_Ward No.8,Thane,0.37017567399066564,True
+Thane_Ward No.6,Thane,Thane_Ward No.7,Thane,3.0224942924922136,True
+Thane_Ward No.8,Thane,Thane_Ward No.10,Thane,0.4955003653140218,True
+Thane_Ward No.8,Thane,Thane_Ward No.4,Thane,2.1782482309053113,True
+Thane_Ward No.8,Thane,Thane_Ward No.7,Thane,2.6314871603287204,True
+Thane_Ward No.4,Thane,Thane_Ward No.17,Thane,0.7611575712429897,True
+Thane_Ward No.4,Thane,Thane_Ward No.18,Thane,0.4923225413118842,True
+Thane_Ward No.4,Thane,Thane_Ward No.10,Thane,0.25135025905323044,True
+Thane_Ward No.11,Thane,Thane_Ward No.16,Thane,0.9242845521121684,True
+Thane_Ward No.11,Thane,Thane_Ward No.15,Thane,0.9241875879609488,True
+Thane_Ward No.11,Thane,Thane_Ward No.14,Thane,0.5807327086285717,True
+Thane_Ward No.11,Thane,Thane_Ward No.10,Thane,1.185579935890127,True
+Thane_Ward No.11,Thane,Thane_Ward No.12,Thane,1.5223319624507234,True
+Thane_Ward No.23,Thane,Thane_Ward No.26,Thane,0.2843440282292153,True
+Thane_Ward No.23,Thane,Thane_Ward No.22,Thane,0.6147874266331463,True
+Thane_Ward No.23,Thane,Thane_Ward No.25,Thane,1.1113033602341262,True
+Thane_Ward No.23,Thane,Thane_Ward No.24,Thane,0.5092411127462184,True
+Thane_Ward No.23,Thane,Thane_Ward No.15,Thane,1.0119868885921321,True
+Thane_Ward No.23,Thane,Thane_Ward No.14,Thane,0.441640022145282,True
+Thane_Ward No.24,Thane,Thane_Ward No.25,Thane,1.0858613410381197,True
+Thane_Ward No.12,Thane,Thane_Ward No.14,Thane,0.6631065446292485,True
+Thane_Ward No.18,Thane,Thane_Ward No.34,Thane,1.4286459995883782,True
+Thane_Ward No.18,Thane,Thane_Ward No.35,Thane,0.1200324514905956,True
+Thane_Ward No.18,Thane,Thane_Ward No.19,Thane,1.3394947264001926,True
+Thane_Ward No.18,Thane,Thane_Ward No.17,Thane,2.010277446630889,True
+Thane_Ward No.28,Thane,Thane_Ward No.30,Thane,1.3557089825895137,True
+Thane_Ward No.28,Thane,Thane_Ward No.27,Thane,0.10861952374655055,True
+Thane_Ward No.28,Thane,Thane_Ward No.29,Thane,1.4257734777807365,True
+Thane_Ward No.28,Thane,Thane_Ward No.21,Thane,2.3522217511970758,True
+Thane_Ward No.28,Thane,Thane_Ward No.19,Thane,0.7429646614150313,True
+Thane_Ward No.25,Thane,Thane_Ward No.26,Thane,0.4595267029515964,True
+Thane_Ward No.21,Thane,Thane_Ward No.27,Thane,1.1530922810174649,True
+Thane_Ward No.21,Thane,Thane_Ward No.22,Thane,0.5165529771815481,True
+Thane_Ward No.21,Thane,Thane_Ward No.19,Thane,0.12660480196881324,True
+Thane_Ward No.21,Thane,Thane_Ward No.16,Thane,0.44960508780018443,True
+Thane_Ward No.21,Thane,Thane_Ward No.20,Thane,0.9106738574401171,True
+Thane_Ward No.40,Thane,Thane_Ward No.38,Thane,0.5430414014770083,True
+Thane_Ward No.40,Thane,Thane_Ward No.41,Thane,0.8296095353830911,True
+Thane_Ward No.40,Thane,Thane_Ward No.39,Thane,1.0135123225201617,True
+Thane_Ward No.37,Thane,Thane_Ward No.38,Thane,1.442892420000014,True
+Thane_Ward No.37,Thane,Thane_Ward No.43,Thane,0.3859308004057719,True
+Thane_Ward No.37,Thane,Thane_Ward No.39,Thane,1.0645988629911618,True
+Thane_Ward No.37,Thane,Thane_Ward No.36,Thane,2.854997797273344,True
+Thane_Ward No.37,Thane,Thane_Ward No.35,Thane,0.9732989430746546,True
+Thane_Ward No.27,Thane,Thane_Ward No.30,Thane,0.6351464993688146,True
+Thane_Ward No.27,Thane,Thane_Ward No.26,Thane,0.19402267731361467,True
+Thane_Ward No.27,Thane,Thane_Ward No.22,Thane,1.5894501347439773,True
+Thane_Ward No.22,Thane,Thane_Ward No.26,Thane,1.4239795112882074,True
+Thane_Ward No.22,Thane,Thane_Ward No.16,Thane,0.5363761453995637,True
+Thane_Ward No.22,Thane,Thane_Ward No.15,Thane,0.4077857467563329,True
+Thane_Ward No.10,Thane,Thane_Ward No.16,Thane,0.3496613128965718,True
+Thane_Ward No.10,Thane,Thane_Ward No.20,Thane,0.7247775821592983,True
+Thane_Ward No.10,Thane,Thane_Ward No.17,Thane,0.5595743832696585,True
+Thane_Ward No.15,Thane,Thane_Ward No.16,Thane,0.9113739863915659,True
+Thane_Ward No.15,Thane,Thane_Ward No.14,Thane,0.4918696397459256,True
+Thane_Ward No.16,Thane,Thane_Ward No.20,Thane,0.7970577307340339,True
+Thane_Ward No.30,Thane,Thane_Ward No.29,Thane,2.0661755487939066,True
+Thane_Ward No.30,Thane,Thane_Ward No.31,Thane,1.1739005049268931,True
+Thane_Ward No.30,Thane,Thane_Ward No.33,Thane,0.030350166799683585,True
+Thane_Ward No.31,Thane,Thane_Ward No.29,Thane,0.029973672486204042,True
+Thane_Ward No.31,Thane,Thane_Ward No.32,Thane,2.2449886178970484,True
+Thane_Ward No.31,Thane,Thane_Ward No.33,Thane,0.3703307676107297,True
+Thane_Ward No.31,Thane,Thane_Ward No.36,Thane,0.7927752888179348,True
+Thane_Ward No.29,Thane,Thane_Ward No.33,Thane,0.9176583979165154,True
+Thane_Ward No.29,Thane,Thane_Ward No.19,Thane,1.364581346493677,True
+Thane_Ward No.20,Thane,Thane_Ward No.19,Thane,1.0400384257525348,True
+Thane_Ward No.20,Thane,Thane_Ward No.17,Thane,1.0689058020484326,True
+Thane_Ward No.19,Thane,Thane_Ward No.33,Thane,0.1509890062579923,True
+Thane_Ward No.19,Thane,Thane_Ward No.34,Thane,0.23953546131045117,True
+Thane_Ward No.19,Thane,Thane_Ward No.17,Thane,0.4773268355039023,True
+Thane_Ward No.32,Thane,Thane_Ward No.33,Thane,2.238852858990954,True
+Thane_Ward No.32,Thane,Thane_Ward No.36,Thane,2.6501045786104376,True
+Thane_Ward No.32,Thane,Thane_Ward No.35,Thane,0.029978669269069506,True
+Thane_Ward No.33,Thane,Thane_Ward No.34,Thane,2.0524171168173506,True
+Thane_Ward No.33,Thane,Thane_Ward No.36,Thane,0.030229583856182095,True
+Thane_Ward No.33,Thane,Thane_Ward No.35,Thane,0.45335278728536493,True
+Thane_Ward No.47,Thane,Thane_Ward No.41,Thane,1.7995372679480872,True
+Thane_Ward No.41,Thane,Thane_Ward No.42,Thane,0.7220200420196072,True
+Thane_Ward No.41,Thane,Thane_Ward No.38,Thane,0.12336309430582844,True
+Thane_Ward No.44,Thane,Thane_Ward No.45,Thane,2.567364560529077,True
+Thane_Ward No.44,Thane,Thane_Ward No.43,Thane,2.549066850540206,True
+Thane_Ward No.42,Thane,Thane_Ward No.38,Thane,1.4072159823622188,True
+Thane_Ward No.42,Thane,Thane_Ward No.43,Thane,0.06755640921116067,True
+Thane_Ward No.39,Thane,Thane_Ward No.38,Thane,1.291424731464205,True
+Thane_Ward No.39,Thane,Thane_Ward No.36,Thane,0.38151160198165496,True
+Thane_Ward No.43,Thane,Thane_Ward No.45,Thane,2.029462021579909,True
+Thane_Ward No.43,Thane,Thane_Ward No.38,Thane,3.840827005785656,True
+Thane_Ward No.34,Thane,Thane_Ward No.35,Thane,1.737079375472406,True
+Thane_Ward No.35,Thane,Thane_Ward No.36,Thane,1.4824580780288443,True
