@@ -144,9 +144,54 @@ HONEST LIMITS
 
 REQUIREMENTS
     pip install earthengine-api geemap geopandas pandas numpy
+
+PERFORMANCE NOTE (added after the original ran >30min stuck on BMC)
+---------------------------------------------------------------------
+The original per-image loop called ee.Image.date().getInfo(),
+.get("orbitProperties_pass").getInfo(), and stats.getInfo() SEPARATELY
+for each of BMC's 309 acquisitions -- i.e. ~900 blocking network round-
+trips to Earth Engine's servers for one region alone. Worse, `reference`
+(the dry-season median composite built from 68 images) was left as a
+lazy, unevaluated ee.Image. Because each iteration issued its own
+independent getInfo() request, Earth Engine had to re-derive that whole
+68-image median + speckle-filter chain from scratch on EVERY iteration,
+not once. That's ~309x more reference-building work than necessary, on
+top of the round-trip latency itself.
+
+The fix below went through two iterations before landing on this one:
+  ATTEMPT 1 (one getInfo() for the whole region): fanned out
+  n_images x n_wards reduceRegions aggregations in a single request --
+  tripped Earth Engine's "too many concurrent aggregations" 429 outright
+  on BMC's 309 images.
+  ATTEMPT 2 (batches of BATCH_SIZE images via .map()): still built each
+  batch's graph as BATCH_SIZE separate reduceRegions calls fanned out
+  concurrently via .map() -- even at BATCH_SIZE=20 this ALSO tripped the
+  same "too many concurrent aggregations" 429. The quota is on
+  concurrent aggregation OPERATIONS per request, not on total images
+  processed, so no batch size fixes this as long as each image still
+  gets its own reduceRegions call within the batch.
+  ATTEMPT 3 (this version): stack each batch's per-image flood masks
+  into ONE MULTI-BAND IMAGE (one band per acquisition, named b0, b1, ...)
+  via ee.Image.addBands, then call reduceRegions ONCE per batch on that
+  multi-band image. Reducing multiple bands in a single reduceRegions
+  call is ONE aggregation operation regardless of band count, so this
+  sidesteps the concurrent-aggregations quota entirely rather than just
+  shrinking around it. BATCH_SIZE here now controls how many bands get
+  stacked into one image (memory/request-size, a different and much
+  looser limit) rather than how many concurrent aggregations get
+  requested, so it can safely be set much higher than 20 if a region is
+  going slowly -- see BATCH_SIZE's comment.
+  Band names are purely positional (b0, b1, ...); acquisition date and
+  orbit_pass for each position are fetched separately via two cheap
+  aggregate_array() calls (get_image_dates_and_orbits) -- each of those
+  is also a single aggregation, not one per image -- and joined back to
+  the reduceRegions output by parsing the "b<i>_mean" / "b<i>_count"
+  column names EE generates (see BAND_RE / zonal_stats_for_region).
 """
 
 import json
+import re
+import time
 import numpy as np
 import pandas as pd
 
@@ -220,6 +265,26 @@ WARD_WATER_FRACTION_THRESHOLD = 0.10  # A ward counts as "flooded" on a
                                         # deliberately conservative floor;
                                         # adjust based on validation against
                                         # the IFI label once run once.
+
+BATCH_SIZE = 40  # Number of S1 images stacked into ONE multi-band image
+                   # per reduceRegions call (see zonal_stats_for_region).
+                   # Because each batch now issues exactly ONE reduceRegions
+                   # aggregation regardless of how many bands/images are in
+                   # it, this is no longer bounded by Earth Engine's
+                   # "concurrent aggregations" quota -- it's bounded by
+                   # request size/time instead, a much looser limit. Raise
+                   # this well above 40 if a region is going slowly and you
+                   # aren't seeing errors; lower it if a single batch times
+                   # out or the response gets too large for a region with
+                   # unusually many wards.
+MAX_RETRIES = 5  # Retries per batch on a 429 "too many concurrent
+                   # aggregations" / transient EE error, with exponential
+                   # backoff (see BASE_BACKOFF_SECONDS) -- EE's own quota
+                   # is shared across whatever else is running in this
+                   # project/session, so a batch that fails once may
+                   # succeed on retry a few seconds later without any
+                   # change needed.
+BASE_BACKOFF_SECONDS = 5  # Backoff doubles each retry: 5s, 10s, 20s, 40s, 80s.
 
 
 # ---------------------------------------------------------------------
@@ -300,10 +365,19 @@ def load_ward_featurecollection() -> ee.FeatureCollection:
 # 3. SENTINEL-1 COLLECTION, SPECKLE FILTER, DRY-SEASON REFERENCE
 # ---------------------------------------------------------------------
 
-def month_filter(months):
-    """Matches any of the given calendar months; correct even when the
-    months wrap across the year boundary (e.g. [12, 1, 2])."""
-    return ee.Filter.Or(*[ee.Filter.calendarRange(m, m, "month") for m in months])
+def month_filter(months: list[int]) -> ee.Filter:
+    """
+    Builds an ee.Filter matching any of the given calendar months,
+    correct regardless of whether the months are contiguous or wrap
+    across the year boundary (e.g. [12, 1, 2] for Dec-Feb). Implemented
+    as an explicit OR of single-month calendarRange filters rather than
+    relying on calendarRange's start>end wraparound behavior or an
+    inList("month", ...) filter -- Sentinel-1 images have no "month"
+    metadata property, so inList("month", ...) silently matches nothing.
+    """
+    return ee.Filter.Or(*[
+        ee.Filter.calendarRange(m, m, "month") for m in months
+    ])
 
 
 def get_s1_collection(region_geom: ee.Geometry) -> ee.ImageCollection:
@@ -348,6 +422,16 @@ def build_dry_reference(region_geom: ee.Geometry, region_name: str) -> ee.Image:
     region's own "what does dry ground/normal urban fabric look like"
     baseline. Median (not mean) so an occasional anomalous dry-month
     scene doesn't drag the baseline.
+
+    NOTE: this remains a lazy ee.Image (not materialized to a client-
+    side array or exported Asset). That's fine as long as it's only
+    evaluated ONCE per region -- which is what process_region() now
+    guarantees by folding every per-image reduceRegions call for this
+    region into a single server-side graph / single getInfo(). Do not
+    reintroduce a per-image Python-loop getInfo() around anything that
+    depends on `reference`, or you'll reintroduce the original slowdown
+    (Earth Engine will re-derive this 68-image median from scratch on
+    every separate request).
     """
     base = get_s1_collection(region_geom)
     dry = base.filter(month_filter(DRY_SEASON_MONTHS))
@@ -382,37 +466,164 @@ def flood_mask_for_image(img: ee.Image, reference: ee.Image, water_mask: ee.Imag
 
 
 # ---------------------------------------------------------------------
-# 5. ZONAL AGGREGATION TO WARD POLYGONS
+# 5. ZONAL AGGREGATION TO WARD POLYGONS -- BATCHED, ONE getInfo() / REGION
 # ---------------------------------------------------------------------
 
-def zonal_water_fraction(flood_img: ee.Image, wards_fc: ee.FeatureCollection,
-                          date_str: str, orbit_pass: str) -> list[dict]:
+BAND_RE = re.compile(r"^b(\d+)_(mean|count)$")
+
+
+def get_image_dates_and_orbits(monitor: ee.ImageCollection, n_images: int) -> tuple[list[str], list[str]]:
     """
-    reduceRegions with a mean reducer over a 0/1 flooded raster directly
-    gives the fraction of valid pixels flagged as flooded per ward
-    polygon (mean of a 0/1 mask = fraction of 1s among unmasked pixels).
-    count() alongside it gives n_valid_pixels, so a ward with almost no
-    unmasked pixels on a given pass (e.g. fully cloud/layover-shadowed --
-    rare for SAR but not impossible) can be filtered out downstream
-    rather than trusted on a near-empty sample.
+    Pulls acquisition date (YYYY-MM-dd) and orbit_pass for every image in
+    `monitor`, in collection order, via two aggregate_array() calls.
+    aggregate_array is a single lightweight aggregation over the whole
+    collection -- NOT a separate reduceRegions-style operation per image
+    -- so this does not touch the "too many concurrent aggregations"
+    quota that the per-image reduceRegions approach hit. Band names in
+    zonal_stats_for_region are purely positional (b0, b1, ...); this is
+    what maps position i back to a real date/orbit_pass.
     """
-    stats = flood_img.reduceRegions(
-        collection=wards_fc,
-        reducer=ee.Reducer.mean().combine(ee.Reducer.count(), sharedInputs=True),
-        scale=10,  # native S1 GRD pixel spacing
-    )
-    info = stats.getInfo()
-    rows = []
-    for feat in info["features"]:
-        props = feat["properties"]
-        rows.append({
-            "ward_uid": props["ward_uid"],
-            "date": date_str,
-            "water_fraction": props.get("mean"),
-            "n_valid_pixels": props.get("count"),
-            "orbit_pass": orbit_pass,
-        })
-    return rows
+    millis = monitor.aggregate_array("system:time_start").getInfo()
+    orbits = monitor.aggregate_array("orbitProperties_pass").getInfo()
+    dates = [pd.to_datetime(m, unit="ms", utc=True).strftime("%Y-%m-%d") for m in millis]
+    return dates, orbits
+
+
+def _stack_batch_as_multiband(image_list: ee.List, start: int, count: int,
+                                reference: ee.Image, water_mask: ee.Image) -> ee.Image:
+    """
+    Builds ONE multi-band ee.Image for a batch of `count` images starting
+    at position `start` in `image_list`: band i is that image's flood
+    mask, named "b<i>" (i local to the batch, 0..count-1). Stacked via
+    repeated addBands() inside ee.List.iterate() rather than
+    ImageCollection.toBands(), so band names are exactly "b0", "b1", ...
+    with no extra prefixing to parse back out.
+
+    The point of stacking into bands (rather than mapping reduceRegions
+    across `count` separate images) is that reduceRegions run once on a
+    multi-band image is ONE aggregation operation no matter how many
+    bands it has -- this is what avoids Earth Engine's "too many
+    concurrent aggregations" quota, which is keyed on the number of
+    aggregation OPERATIONS in a request, not on total pixels/images
+    touched.
+    """
+    indices = ee.List.sequence(0, count - 1)
+
+    def add_band(i, acc):
+        i = ee.Number(i)
+        img = ee.Image(image_list.get(ee.Number(start).add(i)))
+        flood_img = flood_mask_for_image(img, reference, water_mask)
+        band_name = ee.String("b").cat(i.int().format())
+        return ee.Image(acc).addBands(flood_img.rename(band_name))
+
+    # NOTE: the starting accumulator must be ee.Image() with NO arguments
+    # (the documented way to get a genuine zero-band image). ee.Image([])
+    # looks similar but is parsed client-side as "combine this list of
+    # images" -- passing an empty list there raises "Cannot combine 0
+    # images" immediately, before anything even reaches the server.
+    return ee.Image(indices.iterate(add_band, ee.Image()))
+
+
+def _get_batch_info_with_retry(stats_fc: ee.FeatureCollection, batch_label: str) -> dict:
+    """
+    Calls .getInfo() on a batch's reduceRegions result, retrying with
+    exponential backoff on Earth Engine's transient "too many concurrent
+    aggregations" 429 (and other transient EEExceptions) -- these are a
+    shared-quota issue, not a problem with the request itself, so a retry
+    a few seconds later commonly succeeds without any change. With the
+    multi-band-per-batch approach each batch is only ONE aggregation, so
+    this should rarely fire now, but is kept as a safety net for whatever
+    other transient EE errors (server load, timeouts) can still occur.
+    """
+    last_err = None
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            return stats_fc.getInfo()
+        except ee.ee_exception.EEException as e:
+            last_err = e
+            is_quota_error = "concurrent aggregations" in str(e) or "429" in str(e)
+            if attempt == MAX_RETRIES:
+                break
+            wait_s = BASE_BACKOFF_SECONDS * (2 ** (attempt - 1))
+            reason = "quota (too many concurrent aggregations)" if is_quota_error else "transient EE error"
+            print(f"    {batch_label}: {reason} on attempt {attempt}/{MAX_RETRIES} "
+                  f"({e}). Retrying in {wait_s}s...")
+            time.sleep(wait_s)
+    raise RuntimeError(
+        f"{batch_label} failed after {MAX_RETRIES} attempts against Earth Engine's "
+        f"aggregation quota. Try lowering BATCH_SIZE (currently {BATCH_SIZE}) and "
+        f"re-running -- other things sharing this GEE project/session can also eat "
+        f"into the same quota."
+    ) from last_err
+
+
+def zonal_stats_for_region(monitor: ee.ImageCollection, n_images: int,
+                             reference: ee.Image, water_mask: ee.Image,
+                             region_wards: ee.FeatureCollection) -> list[dict]:
+    """
+    Processes this region's images in chunks of BATCH_SIZE, but unlike
+    the earlier .map()-based version, each batch issues exactly ONE
+    reduceRegions call (on a multi-band image stacking that batch's
+    flood masks) instead of BATCH_SIZE separate reduceRegions calls
+    fanned out concurrently -- see _stack_batch_as_multiband's docstring
+    for why that's what actually avoids the "too many concurrent
+    aggregations" 429 (batch size alone does not, as long as each image
+    still gets its own reduceRegions call within the batch).
+
+    `monitor` is sorted by acquisition time first so that positional
+    band indices (b0, b1, ...) line up deterministically with the
+    date/orbit_pass lists pulled separately in get_image_dates_and_orbits.
+    """
+    monitor = monitor.sort("system:time_start")
+    image_list = monitor.toList(n_images)
+    dates, orbits = get_image_dates_and_orbits(monitor, n_images)
+
+    all_rows = []
+    n_batches = (n_images + BATCH_SIZE - 1) // BATCH_SIZE
+    for batch_idx in range(n_batches):
+        start = batch_idx * BATCH_SIZE
+        count = min(BATCH_SIZE, n_images - start)
+        batch_label = f"batch {batch_idx + 1}/{n_batches} (images {start}-{start + count - 1})"
+
+        multiband = _stack_batch_as_multiband(image_list, start, count, reference, water_mask)
+        stats = multiband.reduceRegions(
+            collection=region_wards,
+            reducer=ee.Reducer.mean().combine(ee.Reducer.count(), sharedInputs=True),
+            scale=10,  # native S1 GRD pixel spacing
+        )
+
+        info = _get_batch_info_with_retry(stats, batch_label)
+
+        n_batch_rows = 0
+        for feat in info["features"]:
+            props = feat["properties"]
+            ward_uid = props["ward_uid"]
+            # Each ward-feature has interleaved "b<i>_mean"/"b<i>_count"
+            # properties, one pair per band/image in this batch. Group
+            # them back into per-image rows keyed by local index i, then
+            # translate i -> the batch's global image index to look up
+            # the real date/orbit_pass.
+            per_index = {}
+            for key, val in props.items():
+                m = BAND_RE.match(key)
+                if not m:
+                    continue
+                local_i, stat_type = int(m.group(1)), m.group(2)
+                per_index.setdefault(local_i, {})[stat_type] = val
+            for local_i, stat_dict in per_index.items():
+                global_i = start + local_i
+                all_rows.append({
+                    "ward_uid": ward_uid,
+                    "date": dates[global_i],
+                    "water_fraction": stat_dict.get("mean"),
+                    "n_valid_pixels": stat_dict.get("count"),
+                    "orbit_pass": orbits[global_i],
+                })
+                n_batch_rows += 1
+        print(f"    ...{batch_label} done ({n_batch_rows} rows, "
+              f"{len(all_rows)} total so far)")
+
+    return all_rows
 
 
 # ---------------------------------------------------------------------
@@ -438,24 +649,16 @@ def process_region(region_name: str, region_geom: ee.Geometry,
               f"matches REGIONS exactly. Skipping.")
         return pd.DataFrame()
 
-    image_list = monitor.toList(monitor.size())
     n_images = monitor.size().getInfo()
-    print(f"  {n_images} Sentinel-1 acquisitions to process for {n_wards} wards "
-          f"({'all-year' if MONITOR_ALL_YEAR else f'months {MONSOON_MONTHS} only'}).")
+    n_batches = (n_images + BATCH_SIZE - 1) // BATCH_SIZE
+    print(f"  {n_images} Sentinel-1 acquisitions for {n_wards} wards "
+          f"({'all-year' if MONITOR_ALL_YEAR else f'months {MONSOON_MONTHS} only'}), "
+          f"processing in {n_batches} batches of up to {BATCH_SIZE} images each.")
 
-    all_rows = []
-    for i in range(n_images):
-        img = ee.Image(image_list.get(i))
-        date_str = img.date().format("YYYY-MM-dd").getInfo()
-        orbit_pass = img.get("orbitProperties_pass").getInfo()
-        flood_img = flood_mask_for_image(img, reference, water_mask)
-        rows = zonal_water_fraction(flood_img, region_wards, date_str, orbit_pass)
-        all_rows.extend(rows)
-        if (i + 1) % 25 == 0 or (i + 1) == n_images:
-            print(f"    ...{i + 1}/{n_images} acquisitions processed")
+    all_rows = zonal_stats_for_region(monitor, n_images, reference, water_mask, region_wards)
 
     df = pd.DataFrame(all_rows)
-    print(f"  {region_name}: {len(df)} ward-acquisition rows produced.")
+    print(f"  {region_name}: {len(df)} ward-acquisition rows returned.")
     return df
 
 
