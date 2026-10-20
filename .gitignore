@@ -2,3 +2,5 @@
 ward_day_test.csv 
 ward_day_dataset.csv
 ward_day_train.csv
+__pycache__/
+*.pyc
