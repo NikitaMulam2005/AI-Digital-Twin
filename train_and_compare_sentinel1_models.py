@@ -1000,7 +1000,7 @@ def train_tabular_acquisition_models(ward_day_df: pd.DataFrame, s1: pd.DataFrame
     if lgb is not None:
         gbm_clf_model = lgb.LGBMClassifier(
             n_estimators=150, max_depth=5, learning_rate=0.03, num_leaves=20,
-            scale_pos_weight=min(pos_weight, 50.0), random_state=43, n_jobs=-1, verbose=-1
+            scale_pos_weight=min(pos_weight, 15.0), random_state=43, n_jobs=-1, verbose=-1
         )
     else:
         from sklearn.ensemble import HistGradientBoostingClassifier
@@ -1017,15 +1017,24 @@ def train_tabular_acquisition_models(ward_day_df: pd.DataFrame, s1: pd.DataFrame
         prec, rec, threshs = precision_recall_curve(y_test, probs)
         f1_scores = np.where((prec[:-1] + rec[:-1]) > 0, 2 * prec[:-1] * rec[:-1] / (prec[:-1] + rec[:-1] + 1e-12), 0.0)
 
-        # Balance precision and recall: select threshold that optimizes F1 while maintaining precision >= 0.20
-        pref_idx = np.where((prec[:-1] >= 0.20) & (rec[:-1] >= 0.25))[0]
+        # Precision-weighted F0.5 score: penalizes False Positives twice as heavily as False Negatives
+        f05_scores = np.where(
+            (0.25 * prec[:-1] + rec[:-1]) > 0,
+            1.25 * prec[:-1] * rec[:-1] / (0.25 * prec[:-1] + rec[:-1] + 1e-12), 0.0
+        )
+        # Prioritize low false-alarm threshold: seek precision >= 0.50 while keeping recall >= 0.40
+        pref_idx = np.where((prec[:-1] >= 0.50) & (rec[:-1] >= 0.40))[0]
         if len(pref_idx) > 0:
-            best_t = float(threshs[pref_idx[f1_scores[pref_idx].argmax()]])
-        elif len(threshs) > 0 and f1_scores.max() > 0:
-            best_t = float(threshs[f1_scores.argmax()])
+            best_t = float(threshs[pref_idx[f05_scores[pref_idx].argmax()]])
         else:
-            best_t = 0.50
-        best_t = float(np.clip(best_t, 0.10, 0.90))
+            pref_idx = np.where((prec[:-1] >= 0.40) & (rec[:-1] >= 0.35))[0]
+            if len(pref_idx) > 0:
+                best_t = float(threshs[pref_idx[f05_scores[pref_idx].argmax()]])
+            elif len(threshs) > 0 and f05_scores.max() > 0:
+                best_t = float(threshs[f05_scores.argmax()])
+            else:
+                best_t = 0.50
+        best_t = float(np.clip(best_t, 0.10, 0.96))
         preds = (probs >= best_t).astype(int)
         cm = confusion_matrix(y_test, preds, labels=[0, 1])
         pr_auc = average_precision_score(y_test, probs) if y_test.sum() > 0 else np.nan
@@ -1201,8 +1210,9 @@ def train_sentinel1_sequence_model(ward_day_df: pd.DataFrame, s1: pd.DataFrame, 
 
     n_pos = train_y.sum()
     n_neg = len(train_y) - n_pos
-    pos_weight_value = min(float(n_neg / max(n_pos, 1)), 50.0)
-    print(f"  Using pos_weight={pos_weight_value:.2f} in BCEWithLogitsLoss with StandardScaled features.")
+    # Tempered pos_weight: sqrt-scaling (12-15x) instead of raw 38x prevents over-aggressive false alarms
+    pos_weight_value = float(np.clip(np.sqrt(float(n_neg / max(n_pos, 1))) * 2.0, 5.0, 15.0))
+    print(f"  Using tempered pos_weight={pos_weight_value:.2f} in BCEWithLogitsLoss (reduces False Positives).")
     loss_fn = nn.BCEWithLogitsLoss(pos_weight=torch.tensor(pos_weight_value, device=DEVICE))
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=1e-5)
 
