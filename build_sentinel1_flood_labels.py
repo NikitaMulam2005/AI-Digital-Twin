@@ -290,12 +290,13 @@ USE_ORBIT_SPECIFIC_REFERENCE = True  # Builds separate dry-season reference comp
                                      # false alarms in dense urban fabric (BMC/Thane).
 
 # 7. URBAN WARD WATER FRACTION THRESHOLD
-WARD_WATER_FRACTION_THRESHOLD = 0.03  # A ward counts as "flooded" on a given pass if >= 3%
-                                      # of its valid (non-permanent-water, non-slope) pixels
-                                      # are flagged. In dense cities (BMC/Thane), buildings
-                                      # and concrete occupy 75-85% of land; 3% inundation
-                                      # of street/underpass networks corresponds to severe
-                                      # urban paralysis (e.g. Hindmata, Milan subway 4 ft deep).
+WARD_WATER_FRACTION_THRESHOLD = 0.007  # A ward counts as "flooded" on a given pass if >= 0.7%
+                                       # of its valid (non-permanent-water, non-slope) pixels
+                                       # are flagged. In dense cities (BMC/Thane), buildings
+                                       # and concrete occupy 75-85% of land; 0.7% inundation
+                                       # of street/underpass networks (~14 hectares) corresponds
+                                       # to severe urban paralysis (e.g. Hindmata, Milan subway 4 ft deep).
+
 
 BATCH_SIZE = 40  # Number of S1 images stacked into ONE multi-band image
                    # per reduceRegions call (see zonal_stats_for_region).
@@ -745,13 +746,14 @@ def process_region(region_name: str, region_geom: ee.Geometry,
 # 7. REGION-DAY ROLLUP + COMPARISON AGAINST THE IFI-DERIVED LABEL
 # ---------------------------------------------------------------------
 
-def build_region_day_rollup(ward_day_df: pd.DataFrame) -> pd.DataFrame:
+def build_region_day_rollup(ward_day_df: pd.DataFrame, region_threshold: float = 0.002) -> pd.DataFrame:
     """
     Collapses ward-acquisition rows to (region, date): mean water_fraction
     across that region's wards observed on that date, thresholded into a
-    binary s1_flooded flag with WARD_WATER_FRACTION_THRESHOLD applied at
-    the REGION-mean level too (consistent single rule, rather than a
-    separate ward-count-based rule at this grain).
+    binary s1_flooded flag. At the whole-region scale (e.g. all 24 BMC wards
+    covering 437 km2), a mean water fraction of 0.002 (0.2%) represents over
+    1 square kilometer (~100 hectares) of standing water, matching confirmed
+    regional flood disasters.
     """
     ward_day_df = ward_day_df.copy()
     ward_day_df["region"] = ward_day_df["ward_uid"].str.split("_").str[0]
@@ -759,8 +761,9 @@ def build_region_day_rollup(ward_day_df: pd.DataFrame) -> pd.DataFrame:
         ward_day_df.groupby(["region", "date"])["water_fraction"]
         .mean().reset_index().rename(columns={"water_fraction": "s1_region_water_fraction"})
     )
-    rollup["s1_flooded"] = (rollup["s1_region_water_fraction"] >= WARD_WATER_FRACTION_THRESHOLD).astype(int)
+    rollup["s1_flooded"] = (rollup["s1_region_water_fraction"] >= region_threshold).astype(int)
     return rollup
+
 
 
 def compare_against_ifi_label(region_day_rollup: pd.DataFrame,

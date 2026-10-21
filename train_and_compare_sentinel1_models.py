@@ -231,10 +231,11 @@ SENTINEL1_YEAR_MIN = 2015  # Sentinel-1A launched April 2014; reliable IW
                             # thin first calendar year skewing the
                             # earliest ward-year counts.
 
-WARD_WATER_FRACTION_THRESHOLD = 0.03  # MUST MATCH build_sentinel1_flood_labels.py's
-                                        # constant of the same name. 0.03 (3% of usable
-                                        # ward area) is the physically realistic threshold
-                                        # for dense urban megacities like Mumbai/Thane.
+WARD_WATER_FRACTION_THRESHOLD = 0.007  # MUST MATCH build_sentinel1_flood_labels.py's
+                                         # constant of the same name. 0.007 (0.7% of usable
+                                         # ward area, ~14 hectares) is the physically realistic
+                                         # threshold for dense urban megacities like Mumbai/Thane.
+
 
 
 SENTINEL1_TEST_START_YEAR = 2023  # Later than train_and_compare_models.py's
