@@ -134,7 +134,11 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_score,
                               confusion_matrix, precision_recall_curve, average_precision_score)
 from sklearn.utils.class_weight import compute_sample_weight
-from imblearn.over_sampling import SMOTE
+try:
+    from imblearn.over_sampling import SMOTE
+except ImportError:
+    SMOTE = None
+
 
 from build_ward_day_dataset import build_ward_day_table, add_sequence_features
 
