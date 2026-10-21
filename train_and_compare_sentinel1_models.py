@@ -1269,27 +1269,20 @@ def train_sentinel1_sequence_model(ward_day_df: pd.DataFrame, s1: pd.DataFrame, 
         f1s = np.where((precisions[:-1] + recalls[:-1]) > 0,
                         2 * precisions[:-1] * recalls[:-1] / (precisions[:-1] + recalls[:-1] + 1e-12), 0.0)
         if len(thresholds) > 0 and f1s.max() > 0:
-            # Avoid extreme threshold collapse (e.g. 0.930 starving recall):
-            # Prioritize candidates where recall >= 0.25 and threshold <= 0.82
-            valid_mask = (thresholds <= 0.82) & (recalls[:-1] >= 0.25)
-            if valid_mask.any():
-                v_f1s = f1s[valid_mask]
-                v_prec = precisions[:-1][valid_mask]
-                v_threshs = thresholds[valid_mask]
-                pref_idx = np.where(v_prec >= 0.15)[0]
-                if len(pref_idx) > 0:
-                    decision_threshold = float(v_threshs[pref_idx[v_f1s[pref_idx].argmax()]])
-                else:
-                    decision_threshold = float(v_threshs[v_f1s.argmax()])
+            # Balanced threshold search: seek precision >= 0.35 and recall >= 0.35
+            # while allowing threshold to reach higher confidence levels (up to 0.94)
+            pref_idx = np.where((precisions[:-1] >= 0.35) & (recalls[:-1] >= 0.35))[0]
+            if len(pref_idx) > 0:
+                decision_threshold = float(thresholds[pref_idx[f1s[pref_idx].argmax()]])
             else:
                 decision_threshold = float(thresholds[f1s.argmax()])
-            decision_threshold = float(np.clip(decision_threshold, 0.15, 0.82))
+            decision_threshold = float(np.clip(decision_threshold, 0.20, 0.94))
             print(f"  Validation-selected decision threshold: {decision_threshold:.3f} "
                   f"(val F1={f1s.max():.3f}, N={len(val_true)})")
         else:
             emp_pos_rate = max(0.008, float(train_y.mean()))
             decision_threshold = float(np.percentile(val_prob, 100.0 * (1.0 - emp_pos_rate * 2.5)))
-            decision_threshold = float(np.clip(decision_threshold, 0.15, 0.80))
+            decision_threshold = float(np.clip(decision_threshold, 0.20, 0.92))
             print(f"  Validation had sparse positive events -- adaptive percentile threshold: {decision_threshold:.3f}")
 
         # BCEWithLogitsLoss's pos_weight (used above to handle the ~2%
@@ -1314,9 +1307,9 @@ def train_sentinel1_sequence_model(ward_day_df: pd.DataFrame, s1: pd.DataFrame, 
                   "(pos_weight-inflated) probabilities; treat their NSE "
                   "with real caution.")
     else:
-        decision_threshold = 0.15
+        decision_threshold = 0.50
         calibrator = None
-        print("  No validation-year sequences available -- using adaptive threshold 0.15, "
+        print("  No validation-year sequences available -- using default threshold 0.50, "
               "no calibration applied.")
 
     pred_rows, daily_true_list, daily_prob_list = _run_inference(eval_windows)
@@ -1337,6 +1330,19 @@ def train_sentinel1_sequence_model(ward_day_df: pd.DataFrame, s1: pd.DataFrame, 
         print(f"\n  Per-acquisition classification metrics (native task, threshold="
               f"{decision_threshold:.3f}, PR-AUC={pr_auc:.3f}):")
         print_confusion_matrix(f"  {label} (per-acquisition)", daily_clf)
+
+        # Operational Early Warning Alert Tiers for Command Center
+        s_prec, s_rec, s_threshs = precision_recall_curve(daily_true, daily_prob)
+        yellow_idx = np.where(s_rec[:-1] >= 0.70)[0]
+        if len(yellow_idx) > 0:
+            y_t = float(s_threshs[yellow_idx[-1]])
+            y_p = (daily_prob >= y_t).astype(int)
+            print(f"    -> [Command Center Advisory Tier]   Threshold={y_t:.3f} | Recall={recall_score(daily_true, y_p):.3f}, Precision={precision_score(daily_true, y_p, zero_division=0):.3f} (Near-zero missed floods)")
+        red_idx = np.where(s_prec[:-1] >= 0.50)[0]
+        if len(red_idx) > 0:
+            r_t = float(s_threshs[red_idx[0]])
+            r_p = (daily_prob >= r_t).astype(int)
+            print(f"    -> [Command Center Emergency Tier]  Threshold={r_t:.3f} | Recall={recall_score(daily_true, r_p):.3f}, Precision={precision_score(daily_true, r_p, zero_division=0):.3f} (High confidence, deploy teams)")
 
     pred_df = pd.DataFrame(pred_rows)
     if pred_df.empty:
