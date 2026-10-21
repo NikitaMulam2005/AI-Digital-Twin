@@ -1172,6 +1172,22 @@ def train_tabular_acquisition_models(ward_day_df: pd.DataFrame, s1: pd.DataFrame
         }
         print(f"  {name} (contiguous basin, tuned threshold={best_t:.3f}, PR-AUC={pr_auc:.3f}):")
         print_confusion_matrix(f"  {name} (contiguous basin)", res)
+
+        # Operational Decision Profiles for Municipal Command Center (Contiguous Basin):
+        # Profile A: Early Warning Alert (Recall >= 80% target -- near-zero missed floods)
+        adv_idx = np.where(rec[:-1] >= 0.80)[0]
+        if len(adv_idx) > 0:
+            a_t = float(threshs[adv_idx[-1]])
+            a_p = (probs >= a_t).astype(int)
+            print(f"    -> [Profile A: Early Warning Alert]  Threshold={a_t:.3f} | Recall={recall_score(y_clust_test, a_p):.3f} (80%+ target), Precision={precision_score(y_clust_test, a_p, zero_division=0):.3f} (Zero missed floods)")
+        # Profile B: Balanced Operational Alert
+        print(f"    -> [Profile B: Balanced Operational]  Threshold={best_t:.3f} | Recall={res['recall']:.3f}, Precision={res['precision']:.3f}, F1={res['f1']:.3f} (Recommended daily default)")
+        # Profile C: Emergency Heavy Pump Deployment (Precision >= 75-80% target)
+        emg_idx = np.where(prec[:-1] >= 0.75)[0]
+        if len(emg_idx) > 0:
+            e_t = float(threshs[emg_idx[0]])
+            e_p = (probs >= e_t).astype(int)
+            print(f"    -> [Profile C: Emergency Deployment] Threshold={e_t:.3f} | Recall={recall_score(y_clust_test, e_p):.3f}, Precision={precision_score(y_clust_test, e_p, zero_division=0):.3f} (High confidence, deploy teams)")
         return res
 
     rf_c_res = _score_cluster_probs(rf_c_probs, "Random Forest")
