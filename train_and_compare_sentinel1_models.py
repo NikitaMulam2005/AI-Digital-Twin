@@ -231,15 +231,11 @@ SENTINEL1_YEAR_MIN = 2015  # Sentinel-1A launched April 2014; reliable IW
                             # thin first calendar year skewing the
                             # earliest ward-year counts.
 
-WARD_WATER_FRACTION_THRESHOLD = 0.10  # MUST MATCH build_sentinel1_flood_labels.py's
-                                        # constant of the same name -- that script
-                                        # only ships a continuous water_fraction
-                                        # column (not a precomputed ward-level
-                                        # flag), so the flooded/not-flooded
-                                        # threshold is applied here, at the same
-                                        # value, to keep the two scripts' notion
-                                        # of "flooded" consistent. If you change
-                                        # this in one script, change it in both.
+WARD_WATER_FRACTION_THRESHOLD = 0.03  # MUST MATCH build_sentinel1_flood_labels.py's
+                                        # constant of the same name. 0.03 (3% of usable
+                                        # ward area) is the physically realistic threshold
+                                        # for dense urban megacities like Mumbai/Thane.
+
 
 SENTINEL1_TEST_START_YEAR = 2023  # Later than train_and_compare_models.py's
                                     # TEST_START_YEAR=2019 -- with data only
@@ -332,7 +328,7 @@ class TemporalCNN(nn.Module):
 # 1. BUILD THE SENTINEL-1 WARD-YEAR TARGET
 # ---------------------------------------------------------------------
 
-def load_sentinel1_ward_day() -> pd.DataFrame:
+def load_sentinel1_ward_day(monsoon_only: bool = True) -> pd.DataFrame:
     try:
         s1 = pd.read_csv(SENTINEL1_WARD_DAY_CSV, parse_dates=["date"])
     except FileNotFoundError:
@@ -342,13 +338,28 @@ def load_sentinel1_ward_day() -> pd.DataFrame:
             f"Engine auth; see that script's own docstring)."
         )
     s1["year"] = s1["date"].dt.year
+    s1["month"] = s1["date"].dt.month
     s1 = s1[s1["year"] >= SENTINEL1_YEAR_MIN].reset_index(drop=True)
+
+    # Physical seasonal alignment:
+    # Western India (MMR/Pune) floods strictly occur during the Southwest monsoon and
+    # late retreating monsoon (June to October). If the CSV contains unseasonal winter/dry-season
+    # passes (from older runs with all-year monitoring), filter to monsoon months to prevent
+    # astronomical high tide cycles, agricultural irrigation, and winter dew from contaminating
+    # the machine learning target.
+    if monsoon_only and s1["month"].nunique() > 5:
+        n_before = len(s1)
+        s1 = s1[s1["month"].isin([6, 7, 8, 9, 10])].reset_index(drop=True)
+        print(f"  Physical seasonal filter: restricted to monsoon months (Jun-Oct), "
+              f"retained {len(s1)}/{n_before} passes (filtered out dry-season noise).")
+
     s1["s1_ward_flooded"] = (s1["water_fraction"] >= WARD_WATER_FRACTION_THRESHOLD).astype(int)
     print(f"Loaded {len(s1)} ward-acquisition rows from {SENTINEL1_WARD_DAY_CSV} "
           f"(year >= {SENTINEL1_YEAR_MIN}), {s1['ward_uid'].nunique()} wards, "
           f"{s1['s1_ward_flooded'].mean():.4f} flagged-flooded rate at "
           f"threshold={WARD_WATER_FRACTION_THRESHOLD}.")
     return s1
+
 
 
 def build_ward_year_s1_target(s1: pd.DataFrame) -> pd.DataFrame:
