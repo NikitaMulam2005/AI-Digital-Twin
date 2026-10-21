@@ -231,6 +231,11 @@ SENTINEL1_YEAR_MIN = 2015  # Sentinel-1A launched April 2014; reliable IW
                             # thin first calendar year skewing the
                             # earliest ward-year counts.
 
+SENTINEL1_YEAR_MAX = 2024  # Capped at 2024 to align with meteorological and hydrological
+                            # feature tables (tier_a_region_day_features.csv and
+                            # ward_year_master.csv end at 2024-12-31). Guarantees that all 9
+                            # models evaluate on the identical 2023-2024 test window (N=636 ward-years).
+
 WARD_WATER_FRACTION_THRESHOLD = 0.007  # MUST MATCH build_sentinel1_flood_labels.py's
                                          # constant of the same name. 0.007 (0.7% of usable
                                          # ward area, ~14 hectares) is the physically realistic
@@ -340,7 +345,7 @@ def load_sentinel1_ward_day(monsoon_only: bool = True) -> pd.DataFrame:
         )
     s1["year"] = s1["date"].dt.year
     s1["month"] = s1["date"].dt.month
-    s1 = s1[s1["year"] >= SENTINEL1_YEAR_MIN].reset_index(drop=True)
+    s1 = s1[(s1["year"] >= SENTINEL1_YEAR_MIN) & (s1["year"] <= SENTINEL1_YEAR_MAX)].reset_index(drop=True)
 
     # Physical seasonal alignment:
     # Western India (MMR/Pune) floods strictly occur during the Southwest monsoon and
@@ -356,7 +361,7 @@ def load_sentinel1_ward_day(monsoon_only: bool = True) -> pd.DataFrame:
 
     s1["s1_ward_flooded"] = (s1["water_fraction"] >= WARD_WATER_FRACTION_THRESHOLD).astype(int)
     print(f"Loaded {len(s1)} ward-acquisition rows from {SENTINEL1_WARD_DAY_CSV} "
-          f"(year >= {SENTINEL1_YEAR_MIN}), {s1['ward_uid'].nunique()} wards, "
+          f"({SENTINEL1_YEAR_MIN} <= year <= {SENTINEL1_YEAR_MAX}), {s1['ward_uid'].nunique()} wards, "
           f"{s1['s1_ward_flooded'].mean():.4f} flagged-flooded rate at "
           f"threshold={WARD_WATER_FRACTION_THRESHOLD}.")
     return s1
@@ -1419,7 +1424,7 @@ def main():
     print("#" * 60)
     print("SENTINEL-1 WARD-YEAR COMPARISON -- separate from, and not merged")
     print(f"with, train_and_compare_models.py's IFI-based comparison. Years "
-          f">= {SENTINEL1_YEAR_MIN} only. Models: Naive, Linear Regression, "
+          f"[{SENTINEL1_YEAR_MIN}, {SENTINEL1_YEAR_MAX}]. Models: Naive, Linear Regression, "
           f"Random Forest, LightGBM, ARIMA, LSTM, LSTM+GNN, Temporal CNN.")
     print("#" * 60 + "\n")
 
@@ -1430,6 +1435,14 @@ def main():
                                                  # we only use its dynamic/static
                                                  # feature columns here, not its
                                                  # IFI-derived daily label.
+
+    # Impute missing static features using within-region medians (preventing
+    # coastal Mumbai/Thane/NMMC wards from inheriting 600m Pune plateau medians)
+    for col in STATIC_FEATURE_COLS:
+        if col in ward_day_df.columns:
+            region_med = ward_day_df.groupby("region")[col].transform("median")
+            ward_day_df[col] = ward_day_df[col].fillna(region_med).fillna(ward_day_df[col].median())
+
     ward_year_features = build_ward_year_feature_table(ward_day_df)
 
     (lr_metrics, rf_metrics, lgbm_metrics, naive_metrics,

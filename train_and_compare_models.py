@@ -670,9 +670,10 @@ def build_ward_day_in_memory() -> pd.DataFrame:
         if c not in df.columns:
             raise KeyError(f"Expected column '{c}' missing from ward-day table.")
         df[c] = pd.to_numeric(df[c], errors="coerce")
-    df[DYNAMIC_FEATURE_COLS + STATIC_FEATURE_COLS] = df[
-        DYNAMIC_FEATURE_COLS + STATIC_FEATURE_COLS
-    ].fillna(df[DYNAMIC_FEATURE_COLS + STATIC_FEATURE_COLS].median())
+        # Impute missing static/dynamic values using within-region medians first,
+        # avoiding cross-region contamination (e.g. coastal NMMC wards inheriting 600m Pune elevations).
+        reg_med = df.groupby("region")[c].transform("median")
+        df[c] = df[c].fillna(reg_med).fillna(df[c].median())
 
     print(f"Ward-day table ready: {len(df)} rows, {df['ward_uid'].nunique()} wards, "
           f"{df['date'].min().date()} to {df['date'].max().date()}.")
